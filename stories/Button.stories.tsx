@@ -1,13 +1,12 @@
 import React from 'react';
 import { Meta } from '@storybook/react';
-import Button from './Button';
+import Button from '../components/Button';
 
 const storiesMeta: Meta = {
-  title: 'Button',
+  title: `Button`,
   component: Button,
 };
 
 export default storiesMeta;
 
-export const Primary = () => <Button/>;
-
+export const Primary = () => <Button />;

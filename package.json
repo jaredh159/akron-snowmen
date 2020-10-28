@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "next dev",
-    "dev": "next dev",
+    "start": "npm run dev",
+    "dev": "next dev --port $DEV_PORT",
     "build": "next build",
     "format": "fldev format",
     "format:fix": "fldev format --write",
@@ -13,7 +13,7 @@
     "test": "true",
     "lint": "fldev lint",
     "lint:fix": "fldev lint:fix",
-    "storybook": "start-storybook -p 6006",
+    "storybook": "start-storybook --port $SB_PORT",
     "build-storybook": "build-storybook"
   },
   "dependencies": {
