@@ -1,3 +1,10 @@
+:root {
+  --snowmen-blue: rgb(10, 37, 162);
+  --snowmen-light-blue: rgb(40, 93, 203);
+  --snowmen-dark-blue: rgb(14, 40, 93);
+  --snowmen-red: rgb(201, 57, 47);
+}
+
 html,
 body {
   padding: 0;
