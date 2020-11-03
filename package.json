@@ -14,7 +14,7 @@
     "lint": "fldev lint",
     "lint:fix": "fldev lint:fix",
     "storybook": "start-storybook --port $SB_PORT --ci",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook --output-dir /home/$USER/www/storybook-snowmen"
   },
   "dependencies": {
     "next": "^10.0.0",
