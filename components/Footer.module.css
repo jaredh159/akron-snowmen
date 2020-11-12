@@ -1,0 +1,20 @@
+.mainDivForFooter {
+  height: 10vh;
+  width: 100vw;
+  background-color: var(--snowmen-dark-blue);
+  color: white;
+  margin: 0px;
+}
+
+element.style {
+  padding: 0px;
+  margin: 0px;
+}
+
+.aroundEverything {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
