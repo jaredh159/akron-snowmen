@@ -1,20 +1,15 @@
 .mainDivForFooter {
-  height: 10vh;
+  height: 8.5vh;
   width: 100vw;
   background-color: var(--snowmen-dark-blue);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   color: white;
   margin: 0px;
 }
 
-element.style {
-  padding: 0px;
-  margin: 0px;
-}
-
-.aroundEverything {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+a:hover {
+  color: lightgrey;
+  text-decoration: underline;
 }
