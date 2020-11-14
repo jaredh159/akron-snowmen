@@ -1,12 +1,13 @@
 .menu {
   background-color: var(--snowmen-blue);
   min-height: 100vh;
-  max-width: 90vw;
+  max-width: 85vw;
   display: flex;
   flex-direction: column;
 }
 
 .notSureWhatThisIsYet {
+  padding: 10px;
   align-self: flex-end;
 }
 
@@ -17,9 +18,15 @@
 
 .link {
   color: white;
-  padding: 10px;
+  padding: 15px;
 }
 
 .link:hover {
   background-color: var(--snowmen-light-blue);
+}
+
+@media (min-width: 900px) {
+  .menu {
+    max-width: 30vw;
+  }
 }

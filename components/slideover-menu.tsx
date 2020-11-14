@@ -4,7 +4,7 @@ import styles from "./Slideover-menu.module.css"
 const SlideoverMenu: React.FC = () => {
   return (
   <div className={styles.menu}>
-      <div className={styles.notSureWhatThisIsYet}>something should go here…</div>
+      <div className={styles.notSureWhatThisIsYet}>the thing that closes this should go here</div>
       <div className={styles.flexContainer}>
       <a className={styles.link} href="https://www.akronsnowmen.com">Home</a>
       <a className={styles.link} href="https://www.akronsnowmen.com/about-akron-snowmen">About us</a>
