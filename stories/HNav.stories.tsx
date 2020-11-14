@@ -5,6 +5,9 @@ import HNav from "../components/HNav";
 const storiesMeta: Meta = {
   title: `HNav`,
   component: HNav,
+  parameters: {
+    layout: "fullscreen",
+  },
 };
 
 export default storiesMeta;

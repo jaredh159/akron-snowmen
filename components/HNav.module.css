@@ -1,0 +1,20 @@
+.HNav {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50px;
+  background: radial-gradient(
+    var(--snowmen-light-blue),
+    var(--snowmen-dark-blue)
+  );
+  font-weight: bold;
+  border: 3px var(--snowmen-dark-blue) double;
+}
+
+@media (min-width: 768px) {
+  .HNav {
+    justify-content: center;
+  }
+}
