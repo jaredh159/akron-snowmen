@@ -7,10 +7,9 @@ type Props = {
 
 const HNavItem: React.FC<Props> = ({ text, url }): any => {
   return (
-    <>
-      <h1>Text: {text} </h1>
-      <h2>URL: {url} </h2>
-    </>
+    <li>
+      <a href={url}>{text}</a>
+    </li>
   );
 };
 
