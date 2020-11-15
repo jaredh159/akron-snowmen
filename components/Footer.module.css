@@ -11,5 +11,9 @@
 
 a:hover {
   color: lightgrey;
-  text-decoration: underline;
+}
+
+.linksInFooter {
+  text-align: center;
+  display: flex;
 }

@@ -1,26 +1,26 @@
-import React from 'react';
-import styles from './Footer.module.css';
+import React from "react";
+import styles from "./Footer.module.css";
+import FooterLinks from "./FooterLinks";
 
-type Props = {
-linkOne: string;
-linkTwo: string;
-linkThree: string;
-linkFour: string;
-linkPageOne: string;
-linkPageTwo: string;
-linkPageThree: string;
-linkPageFour: string;
-}
-
-const Footer: React.FC<Props> = ({linkOne, linkTwo, linkThree, linkFour, linkPageOne, linkPageTwo, linkPageThree, linkPageFour}) => {
+const Footer: React.FC = (): any => {
   return (
-    <div className={styles.mainDivForFooter}>
-      <a className="links" href={linkOne}>{linkPageOne}</a>
-      <a className="links" href={linkTwo}>{linkPageTwo}</a>
-      <a className="links" href={linkThree}>{linkPageThree}</a>
-      <a className="links" href={linkFour}>{linkPageFour}</a>
+    <div className={styles.linksInFooter}>
+      <FooterLinks whatLinkSays="Home" whereLinkGoes="https://friendslibrary.com" />
+      <FooterLinks
+        whatLinkSays="About Us"
+        whereLinkGoes="https://friendslibrary.com"
+      />
+      <FooterLinks
+        whatLinkSays="What we do"
+        whereLinkGoes="https://friendslibrary.com"
+      />
+      <FooterLinks
+        whatLinkSays="Staff"
+        whereLinkGoes="https://friendslibrary.com"
+      />
     </div>
-  )
+  );
 };
 
 export default Footer;
+

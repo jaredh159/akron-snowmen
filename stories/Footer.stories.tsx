@@ -12,4 +12,4 @@ const storiesMeta: Meta = {
 
 export default storiesMeta;
 
-export const Primary = () => <Footer linkPageOne="Home" linkPageTwo="Staff" linkPageThree="About Us" linkPageFour="What we do" linkOne={"https://friendslibrary.com"} linkTwo={"https://friendslibrary.com"} linkThree={"https://friendslibrary.com"} linkFour={"https://friendslibrary.com"}/>;
+export const Primary = () => <Footer />;
