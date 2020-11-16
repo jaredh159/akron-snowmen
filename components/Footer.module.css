@@ -1,0 +1,19 @@
+.mainDivForFooter {
+  height: 8.5vh;
+  width: 100vw;
+  background-color: var(--snowmen-dark-blue);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  margin: 0px;
+}
+
+a:hover {
+  color: lightgrey;
+}
+
+.linksInFooter {
+  text-align: center;
+  display: flex;
+}
