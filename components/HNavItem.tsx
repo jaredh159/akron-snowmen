@@ -1,5 +1,5 @@
-import React from "react";
-import styles from "./HNavItem.module.css";
+import React from 'react';
+import styles from './HNavItem.module.css';
 
 type Props = {
   text: string;

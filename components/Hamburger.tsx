@@ -1,5 +1,5 @@
-import React from "react";
-import styles from "./Hamburger.module.css";
+import React from 'react';
+import styles from './Hamburger.module.css';
 
 type Props = {
   closed: boolean;
