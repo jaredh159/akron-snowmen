@@ -1,6 +1,6 @@
-import React from "react";
-import { Meta } from "@storybook/react";
-import Logo from "../components/Logo";
+import React from 'react';
+import { Meta } from '@storybook/react';
+import Logo from '../components/Logo';
 
 const storiesMeta: Meta = {
   title: `Logo`,

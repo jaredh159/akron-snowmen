@@ -1,12 +1,12 @@
-import React from "react";
-import { Meta } from "@storybook/react";
-import HNav from "../components/HNav";
+import React from 'react';
+import { Meta } from '@storybook/react';
+import HNav from '../components/HNav';
 
 const storiesMeta: Meta = {
   title: `HNav`,
   component: HNav,
   parameters: {
-    layout: "fullscreen",
+    layout: `fullscreen`,
   },
 };
 

@@ -1,5 +1,5 @@
-import React from "react";
-import styles from "./Logo.module.css";
+import React from 'react';
+import styles from './Logo.module.css';
 
 type Props = {
   width: number;
@@ -17,7 +17,7 @@ const Logo: React.FC<Props> = ({ width }) => {
           backgroundColor: `var(--snowmen-red)`,
           height: `1px`,
         }}
-      ></div>
+      ></div>,
     );
   }
   for (let i = 0; i <= width / 3.75; i++) {
@@ -27,10 +27,10 @@ const Logo: React.FC<Props> = ({ width }) => {
           width: (width - Math.abs(Math.sin(i / (width / 11))) * 20) / 1.1,
           backgroundColor: `white`,
           height: `1px`,
-          position: "absolute",
+          position: `absolute`,
           top: i + width / 30,
         }}
-      ></div>
+      ></div>,
     );
   }
   for (let i = 0; i <= width / 4.25; i++) {
@@ -40,10 +40,10 @@ const Logo: React.FC<Props> = ({ width }) => {
           width: (width - Math.abs(Math.sin(i / (width / 13))) * 20) / 1.16,
           backgroundColor: `var(--snowmen-red)`,
           height: `1px`,
-          position: "absolute",
+          position: `absolute`,
           top: i + width / 20,
         }}
-      ></div>
+      ></div>,
     );
   }
   return (
@@ -54,10 +54,10 @@ const Logo: React.FC<Props> = ({ width }) => {
         innerRed,
         <h1
           style={{
-            position: "absolute",
+            position: `absolute`,
             fontSize: `${width / 7.5}px`,
-            color: "white",
-            fontFamily: "baskerville",
+            color: `white`,
+            fontFamily: `baskerville`,
           }}
         >
           SNOWMEN

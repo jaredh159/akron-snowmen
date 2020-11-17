@@ -6,8 +6,8 @@ const storiesMeta: Meta = {
   title: `Footer`,
   component: Footer,
   parameters: {
-  layout: "fullscreen",
-  }
+    layout: `fullscreen`,
+  },
 };
 
 export default storiesMeta;

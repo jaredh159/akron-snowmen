@@ -6,8 +6,8 @@ const storiesMeta: Meta = {
   title: `SlideoverMenu`,
   component: SlideoverMenu,
   parameters: {
-    layout: "fullscreen",
-  }
+    layout: `fullscreen`,
+  },
 };
 
 export default storiesMeta;
