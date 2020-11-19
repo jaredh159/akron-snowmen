@@ -1,3 +1,8 @@
-## Akron Snowmen Website
+# Akron Snowmen Website
 
-> TODO: make this cool
+## Developement
+
+```bash
+$ npm run dev
+```
+
