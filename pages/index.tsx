@@ -1,14 +1,8 @@
 import React from 'react';
-import Head from 'next/head';
+import Layout from '../components/Layout';
 
 const Home: React.FC = () => {
-  return (
-    <>
-      <Head>
-        <title>Akron Snowmen</title>
-      </Head>
-    </>
-  );
+  return <Layout title="Akron Snowmen">Children HERE</Layout>;
 };
 
 export default Home;

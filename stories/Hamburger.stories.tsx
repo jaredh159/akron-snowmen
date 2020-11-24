@@ -9,5 +9,5 @@ const storiesMeta: Meta = {
 
 export default storiesMeta;
 
-export const Closed = () => <Hamburger closed={true} />;
-export const Open = () => <Hamburger closed={false} />;
+export const Closed = () => <Hamburger onClick={() => {}} closed={true} />;
+export const Open = () => <Hamburger onClick={() => {}} closed={false} />;

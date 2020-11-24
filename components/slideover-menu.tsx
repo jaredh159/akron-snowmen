@@ -1,11 +1,18 @@
 import React from 'react';
+import cx from 'classnames';
 import styles from './Slideover-menu.module.css';
+import Hamburger from './Hamburger';
 
-const SlideoverMenu: React.FC = () => {
+type Props = {
+  className?: string;
+  onClose: () => unknown;
+};
+
+const SlideoverMenu: React.FC<Props> = ({ className, onClose }) => {
   return (
-    <div className={styles.menu}>
+    <div className={cx(className, styles.menu)}>
       <div className={styles.notSureWhatThisIsYet}>
-        the thing that closes this should go here
+        <Hamburger closed={false} onClick={onClose} />
       </div>
       <div className={styles.flexContainer}>
         <a

@@ -1,10 +1,15 @@
 import React from 'react';
+import cx from 'classnames';
 import styles from './HNav.module.css';
 import HNavItem from './HNavItem';
 
-const HNav: React.FC = (): any => {
+type Props = {
+  className?: string;
+};
+
+const HNav: React.FC<Props> = ({ className }) => {
   return (
-    <ul className={styles.HNav}>
+    <ul className={cx(className, styles.HNav)}>
       <HNavItem text="Home" url="http://akronsnowmen.com" />
       <HNavItem text="About Us" url="http://akronsnowmen.com/about-akron-snowmen" />
       <HNavItem

@@ -1,5 +1,5 @@
 .main {
-  background: grey;
+  background: var(--snowmen-red);
   width: 65px;
   height: 65px;
   display: flex;
