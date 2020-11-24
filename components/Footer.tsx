@@ -1,10 +1,15 @@
 import React from 'react';
+import cx from 'classnames';
 import styles from './Footer.module.css';
 import FooterLinks from './FooterLinks';
 
-const Footer: React.FC = (): any => {
+type Props = {
+  className?: string;
+};
+
+const Footer: React.FC<Props> = ({ className }) => {
   return (
-    <div className={styles.linksInFooter}>
+    <div className={cx(className, styles.linksInFooter)}>
       <FooterLinks whatLinkSays="Home" whereLinkGoes="https://friendslibrary.com" />
       <FooterLinks whatLinkSays="About Us" whereLinkGoes="https://friendslibrary.com" />
       <FooterLinks whatLinkSays="What we do" whereLinkGoes="https://friendslibrary.com" />

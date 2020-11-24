@@ -1,7 +1,6 @@
 .menu {
   background-color: var(--snowmen-blue);
   min-height: 100vh;
-  max-width: 75vw;
   display: flex;
   flex-direction: column;
 }
@@ -31,10 +30,4 @@
 .link:hover {
   background-color: var(--snowmen-light-blue);
   transition: 0.3s;
-}
-
-@media (min-width: 900px) {
-  .menu {
-    max-width: 30vw;
-  }
 }

@@ -3,11 +3,12 @@ import styles from './Hamburger.module.css';
 
 type Props = {
   closed: boolean;
+  onClick: () => unknown;
 };
 
-const Hamburger: React.FC<Props> = ({ closed }) => {
+const Hamburger: React.FC<Props> = ({ closed, onClick }) => {
   return (
-    <div className={styles.main}>
+    <div className={styles.main} onClick={onClick}>
       <div className={styles.mainInner}>
         {closed ? (
           <>

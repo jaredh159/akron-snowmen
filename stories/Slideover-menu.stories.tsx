@@ -12,4 +12,4 @@ const storiesMeta: Meta = {
 
 export default storiesMeta;
 
-export const Slideover_Menu = () => <SlideoverMenu />;
+export const Slideover_Menu = () => <SlideoverMenu onClose={() => {}} />;
