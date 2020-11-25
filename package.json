@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "npm run dev",
-    "dev": "next dev --port $DEV_PORT",
+    "dev": "next dev --port $DEV_PORT & sleep 5 && npm run prettier:watch",
     "build": "next build && next export -o /home/$USER/www/akron-snowmen",
     "format": "fldev format",
     "format:check": "fldev format --check",
@@ -14,7 +14,8 @@
     "lint": "fldev lint",
     "lint:fix": "fldev lint:fix",
     "storybook": "start-storybook --port $SB_PORT --ci",
-    "build-storybook": "build-storybook --output-dir /home/$USER/www/storybook-snowmen"
+    "build-storybook": "build-storybook --output-dir /home/$USER/www/storybook-snowmen",
+    "prettier:watch": "onchange \"./**/*\" -- prettier --config ./node_modules/@friends-library/dev/.prettierrc.json --write --ignore-unknown {{changed}}"
   },
   "dependencies": {
     "classnames": "^2.2.6",
@@ -33,6 +34,7 @@
     "@types/node": "^14.14.2",
     "@types/react": "^16.9.53",
     "babel-loader": "^8.1.0",
+    "onchange": "^7.1.0",
     "react-is": "^16.13.0",
     "typescript": "^4.0.3"
   }
