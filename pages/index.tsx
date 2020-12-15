@@ -1,8 +1,7 @@
 import React from 'react';
-import Layout from '../components/Layout';
 
 const Home: React.FC = () => {
-  return <Layout title="Akron Snowmen">Children HERE</Layout>;
+  return <h1>Akron Snowmen!</h1>;
 };
 
 export default Home;
