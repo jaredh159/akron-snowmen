@@ -1,9 +1,10 @@
 .textBlock {
   font-family: Arial;
   color: white;
-  padding: 80px;
   display: flex;
+  padding: 30px;
   flex-direction: column;
+  font-size: 0.9em;
 }
 
 .text {
@@ -11,6 +12,7 @@
 }
 
 .image {
+  height: 250px;
   width: 100%;
 }
 
@@ -36,8 +38,18 @@
     flex-direction: row;
   }
 
+  .textBlock {
+    padding: 70px;
+  }
+
+  .image {
+    height: auto;
+  }
+}
+
+@media (min-width: 640px) {
   .fakeButton {
-    width: 30%;
+    width: 150px;
     align-self: flex-start;
   }
 }
