@@ -1,0 +1,43 @@
+.textBlock {
+  font-family: Arial;
+  color: white;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  opacity: 0.5;
+}
+
+.image {
+  width: 100%;
+}
+
+.fakeButton {
+  font-size: 15px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 30px;
+  padding: 15px;
+  align-self: center;
+  text-align: center;
+  margin-top: 10px;
+  width: 90%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .main {
+    flex-direction: row;
+  }
+
+  .fakeButton {
+    width: 30%;
+    align-self: flex-start;
+  }
+}
