@@ -20,14 +20,9 @@ body {
   border: 1px solid rgba(225, 225, 225, 0.7);
 }
 
-@media (max-width: 350px) {
-  .btn {
-    padding: 18px 75px;
-  }
-}
-
 @media (max-width: 640px) {
   .btn {
     width: 80%;
+    padding: 18px 75px;
   }
 }
