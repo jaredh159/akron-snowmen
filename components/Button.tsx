@@ -1,6 +1,12 @@
 import React from 'react';
 import styles from './Button.module.css';
 
-const Button: React.FC = () => <button className={styles.btn}>Button</button>;
+type Props = {
+  whatItSays: string;
+};
+
+const Button: React.FC<Props> = ({ whatItSays }) => {
+  return <span className={styles.btn}> {whatItSays}</span>;
+};
 
 export default Button;
