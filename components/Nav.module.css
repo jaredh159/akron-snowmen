@@ -1,0 +1,62 @@
+.outerNav {
+  list-style: none;
+  background-color: var(--dark-purple);
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 12px;
+  margin-right: 12px;
+  letter-spacing: 1px;
+  font-family: 'Arial';
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: bold;
+  position: relative;
+}
+
+/* This should be :active instead of :hover, need to change later */
+.link:hover::after {
+  content: '';
+  display: block;
+  position: absolute;
+  background: var(--pink);
+  height: 3px;
+  width: 100%;
+  bottom: 0;
+}
+
+.link:hover {
+  /* I can't get this working, to make the text white, does anyone know where I went wrong? */
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* background: linear-gradient(to right, var(--pink), var(--purple)); */
+
+@media (min-width: 768px) {
+  .outerNav {
+    height: 100vh;
+    position: fixed;
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .link:hover::after {
+    background: linear-gradient(to left, var(--pink), var(--med-purple));
+  }
+
+  .link {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 5px;
+    margin: 0;
+    text-align: right;
+    width: 80%;
+  }
+}
