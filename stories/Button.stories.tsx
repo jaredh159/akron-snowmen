@@ -12,4 +12,4 @@ parameters: {
 
 export default storiesMeta;
 
-export const Primary = () => <Button whatItSays={'LEARN MORE'} />;
+export const Primary = () => <Button>LEARN MORE</Button>;
