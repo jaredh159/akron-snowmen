@@ -1,2 +1,31 @@
 .entireBlock {
+  font-family: arial;
+  background-color: var(--light-pink);
+  display: flex;
+}
+
+.rightChunk {
+  padding: 20px 20px 20px 0px;
+}
+
+.rightChunk h2 {
+  font-size: 1.2em;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.rightChunk p {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.leftChunk {
+  padding: 1em;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 100%;
+  margin-top: 10px;
 }
