@@ -1,0 +1,55 @@
+.textBlock {
+  font-family: Arial;
+  color: white;
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  font-size: 0.9em;
+}
+
+.text {
+  opacity: 0.5;
+}
+
+.image {
+  height: 250px;
+  width: 100%;
+}
+
+.fakeButton {
+  font-size: 15px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 30px;
+  padding: 15px;
+  align-self: center;
+  text-align: center;
+  margin-top: 10px;
+  width: 90%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .main {
+    flex-direction: row;
+  }
+
+  .textBlock {
+    padding: 70px;
+  }
+
+  .image {
+    height: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .fakeButton {
+    width: 150px;
+    align-self: flex-start;
+  }
+}
