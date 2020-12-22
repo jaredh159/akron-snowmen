@@ -5,8 +5,8 @@ import Button from '../components/Button';
 const storiesMeta: Meta = {
   title: `Button`,
   component: Button,
-parameters: {
-    layout: "centered",
+  parameters: {
+    layout: 'centered',
   },
 };
 

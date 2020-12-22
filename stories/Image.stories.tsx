@@ -1,12 +1,12 @@
-import React from "react";
-import { Meta } from "@storybook/react";
-import Image from "../components/Image";
+import React from 'react';
+import { Meta } from '@storybook/react';
+import Image from '../components/Image';
 
 const storiesMeta: Meta = {
   title: `Image`,
   component: Image,
   parameters: {
-    layout: "fullscreen",
+    layout: 'fullscreen',
   },
 };
 
