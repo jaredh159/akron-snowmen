@@ -5,11 +5,15 @@ import Button from '../components/Button';
 const storiesMeta: Meta = {
   title: `Button`,
   component: Button,
-parameters: {
-    layout: "centered",
+  parameters: {
+    layout: 'centered',
   },
 };
 
 export default storiesMeta;
 
-export const Primary = () => <Button>LEARN MORE</Button>;
+export const Primary = () => (
+  <div style={{ padding: `2em`, backgroundColor: `var(--light-purple)` }}>
+    <Button>LEARN MORE</Button>
+  </div>
+);

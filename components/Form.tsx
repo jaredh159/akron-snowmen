@@ -17,7 +17,7 @@ const Form: React.FC = () => {
           <input type="text" />
         </div>
 
-        <div className={styles.inputDivs} id={styles.email}>
+        <div className={`${styles.inputDivs} ${styles.email}`}>
           <label>Email</label>
           <input type="email" />
         </div>

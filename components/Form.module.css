@@ -1,25 +1,25 @@
-form {
+.form {
   font-family: Arial, sans-serif;
   background-color: var(--light-purple);
   padding: 2em;
 }
 
-h3 {
+.form h3 {
   color: white;
 }
 
-p {
+.form p {
   color: rgba(255, 255, 255, 0.5);
 }
 
-div {
+.form div {
   display: flex;
   flex-direction: column;
   margin-top: 5px;
   margin-bottom: 10px;
 }
 
-label {
+.form label {
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -28,8 +28,8 @@ label {
   flex-direction: column;
 }
 
-input,
-textarea {
+.form input,
+.form textarea {
   display: block;
   border-radius: 5px;
   background-color: rgba(130, 105, 196, 0.3);
@@ -42,21 +42,21 @@ textarea {
   color: white;
 }
 
-textarea:focus,
-input:focus {
+.form textarea:focus,
+.form input:focus {
   outline-color: white;
   outline-style: solid;
   outline-width: 2px;
 }
 
 @media (min-width: 640px) {
-  .inputs {
+  .form .inputs {
     flex-direction: row;
   }
   .inputDivs {
     flex-grow: 1;
   }
-  #email {
+  .email {
     margin-left: 30px;
   }
 }

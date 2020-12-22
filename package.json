@@ -15,7 +15,7 @@
     "lint:fix": "fldev lint:fix",
     "storybook": "start-storybook --port $SB_PORT --ci",
     "build-storybook": "build-storybook --output-dir /home/$USER/www/storybook-snowmen",
-    "prettier:watch": "onchange \"./**/*\" -- prettier --config ./node_modules/@friends-library/dev/.prettierrc.json --write --ignore-unknown {{changed}}"
+    "prettier:watch": "onchange \"./**/*.{ts,tsx,js,css}\" -- prettier --config ./node_modules/@friends-library/dev/.prettierrc.json --write --ignore-unknown {{changed}}"
   },
   "dependencies": {
     "classnames": "^2.2.6",
