@@ -1,0 +1,62 @@
+form {
+  font-family: Arial, sans-serif;
+  background-color: var(--light-purple);
+  padding: 2em;
+}
+
+h3 {
+  color: white;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+label {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  display: block;
+  border-radius: 5px;
+  background-color: rgba(130, 105, 196, 0.3);
+  border-color: rgba(255, 255, 255, 0.1);
+  border-style: solid;
+  border-width: 1px;
+  padding: 15px;
+  margin-top: 5px;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+textarea:focus,
+input:focus {
+  outline-color: white;
+  outline-style: solid;
+  outline-width: 2px;
+}
+
+@media (min-width: 640px) {
+  .inputs {
+    flex-direction: row;
+  }
+  .inputDivs {
+    flex-grow: 1;
+  }
+  #email {
+    margin-left: 30px;
+  }
+}
