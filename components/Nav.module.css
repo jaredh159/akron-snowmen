@@ -16,6 +16,7 @@
   color: rgba(255, 255, 255, 0.5);
   font-weight: bold;
   position: relative;
+  text-transform: uppercase;
 }
 
 /* This should be :active instead of :hover, need to change later */
@@ -30,11 +31,8 @@
 }
 
 .link:hover {
-  /* I can't get this working, to make the text white, does anyone know where I went wrong? */
   color: rgba(255, 255, 255, 0.8);
 }
-
-/* background: linear-gradient(to right, var(--pink), var(--purple)); */
 
 @media (min-width: 768px) {
   .outerNav {

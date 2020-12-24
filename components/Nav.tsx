@@ -3,14 +3,12 @@ import styles from './Nav.module.css';
 
 const Nav: React.FC = () => {
   return (
-    <>
-      <ul className={styles.outerNav}>
-        <li className={styles.link}>WELCOME</li>
-        <li className={styles.link}>WHO WE ARE</li>
-        <li className={styles.link}>WHAT WE DO</li>
-        <li className={styles.link}>GET IN TOUCH</li>
-      </ul>
-    </>
+    <ul className={styles.outerNav}>
+      <li className={styles.link}>Welcome</li>
+      <li className={styles.link}>Who We Are</li>
+      <li className={styles.link}>What We Do</li>
+      <li className={styles.link}>Get In Touch</li>
+    </ul>
   );
 };
 
