@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "npm run dev",
-    "dev": "next dev --port $DEV_PORT & sleep 5 && npm run prettier:watch",
+    "dev": "next dev --port $DEV_PORT",
     "build": "next build && next export -o /home/$USER/www/akron-snowmen",
     "format": "fldev format",
     "format:check": "fldev format --check",
