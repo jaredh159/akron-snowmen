@@ -5,13 +5,13 @@
   color: white;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 30px;
-  padding: 18px 125px;
+  padding: 18px 0;
+  width: 250px;
+  text-align: center;
   letter-spacing: 2px;
   cursor: pointer;
   transition-duration: 300ms;
-  width: 90%;
-  text-align: center;
-  margin-top: 10px;
+  margin: 40px 0 40px 0;
 }
 
 .btn:hover {
@@ -21,7 +21,7 @@
 
 @media (max-width: 640px) {
   .btn {
-    width: 80%;
-    padding: 18px 75px;
+    width: 100%;
+    padding: 18px 0;
   }
 }
