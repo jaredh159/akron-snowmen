@@ -5,11 +5,7 @@ import Button from './Button';
 const HeroBlock: React.FC = () => {
   return (
     <div className={styles.entire}>
-      <img
-        src="https://snowmen-example.netlify.app/static/plow-f89df041675b6e6bf25171420a8f84fa.jpg"
-        className={styles.image}
-        alt="plow"
-      />
+      <img src="/plow.jpg" className={styles.image} alt="plow" />
       <div className={styles.overlay}>
         <h1>Akron Snowmen</h1>
         <p>
