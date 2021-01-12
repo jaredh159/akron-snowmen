@@ -1,35 +1,32 @@
 import React from 'react';
+import Button from './Button';
+import cx from 'classnames';
 import styles from './Form.module.css';
 
 const Form: React.FC = () => {
   return (
-    <form className={styles.form}>
-      <h3>Get in touch</h3>
-      <p>
-        three fishers went sailing out into the west out into the west as the sun went
-        down and each thought on the woman that loved him the best and the children stood
-        watching them out of the time
-      </p>
+    <>
+      <form className={styles.form}>
+        <div className={cx(styles.inputs, styles.formDiv)}>
+          <div className={cx(styles.formDiv, styles.inputDivs)}>
+            <label>Name</label>
+            <input type="text" />
+          </div>
 
-      <div className={styles.inputs}>
-        <div className={styles.inputDivs}>
-          <label>Name</label>
-          <input type="text" />
+          <div className={cx(styles.inputDivs, styles.email, styles.formDiv)}>
+            <label>Email</label>
+            <input type="email" />
+          </div>
         </div>
 
-        <div className={`${styles.inputDivs} ${styles.email}`}>
-          <label>Email</label>
-          <input type="email" />
+        <div className={styles.formDiv}>
+          <label>Message</label>
+          <textarea rows={10}></textarea>
         </div>
-      </div>
 
-      <div>
-        <label>Message</label>
-        <textarea rows={10}></textarea>
-      </div>
-
-      <button>Sumbmit</button>
-    </form>
+        <Button>SEND MESSAGE</Button>
+      </form>
+    </>
   );
 };
 

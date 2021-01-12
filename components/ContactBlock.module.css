@@ -1,0 +1,78 @@
+.entire {
+  background-color: var(--light-purple);
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  padding: 0 35px;
+}
+
+.formWrapper {
+  flex-grow: 1;
+}
+
+.info h1 {
+  color: white;
+  font-size: 1rem;
+}
+
+.info div {
+  text-align: left;
+  line-height: 10px;
+  margin-bottom: 20px;
+}
+
+.info p,
+.info a {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.3rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  border-top: solid rgba(255, 255, 255, 0.2) 1px;
+  padding-top: 30px;
+}
+
+.mainHeader {
+  color: white;
+}
+
+.mainText {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.rodEmail {
+  text-decoration: underline dotted;
+  text-underline-offset: 2px;
+}
+
+@media (min-width: 768px) {
+  .entire {
+    padding: 0 65px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .main {
+    display: flex;
+    margin-bottom: 100px;
+  }
+
+  .mainText {
+    width: 50%;
+  }
+
+  .info {
+    border-top: none;
+    border-left: rgba(255, 255, 255, 0.2) solid 1px;
+    padding-top: 0;
+    padding-left: 50px;
+  }
+
+  .formWrapper {
+    margin-right: 50px;
+  }
+}
