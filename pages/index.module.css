@@ -1,0 +1,15 @@
+.homePage {
+  /* todo */
+}
+
+@media (min-width: 768px) {
+  .homePage main {
+    margin-left: 300px;
+  }
+
+  .nav > ul {
+    height: 100vh;
+    position: fixed;
+    width: 300px;
+  }
+}

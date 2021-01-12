@@ -1,13 +1,12 @@
 .footer {
   height: 175px;
-  background-color: var(--light-purple);
+  background-color: var(--med-purple);
   width: 100%;
 }
 
 .links {
   display: flex;
   flex-direction: column;
-  width: 600px;
   height: 75%;
   color: rgba(255, 255, 255, 0.3);
   font-family: Arial;
@@ -15,6 +14,7 @@
   justify-content: space-evenly;
   list-style: none;
   padding-top: 40px;
+  margin: 0;
 }
 
 .second {
