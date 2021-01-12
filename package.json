@@ -13,7 +13,7 @@
     "test": "true",
     "lint": "fldev lint --rule '@typescript-eslint/quotes: off'",
     "lint:fix": "fldev lint:fix",
-    "storybook": "start-storybook --port $SB_PORT --ci",
+    "storybook": "start-storybook --static-dir ./public --port $SB_PORT --ci",
     "build-storybook": "build-storybook --output-dir /home/$USER/www/storybook-snowmen",
     "prettier:watch": "onchange \"./**/*.{ts,tsx,js,css}\" -- prettier --config ./node_modules/@friends-library/dev/.prettierrc.json --write --ignore-unknown {{changed}}"
   },

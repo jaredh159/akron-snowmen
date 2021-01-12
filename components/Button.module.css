@@ -9,6 +9,9 @@
   letter-spacing: 2px;
   cursor: pointer;
   transition-duration: 300ms;
+  width: 90%;
+  text-align: center;
+  margin-top: 10px;
 }
 
 .btn:hover {

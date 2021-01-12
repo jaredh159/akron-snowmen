@@ -1,10 +1,10 @@
 import React from 'react';
 import { Meta } from '@storybook/react';
-import Image from '../components/Image';
+import ImageAndTextBlock from '../components/ImageAndTextBlock';
 
 const storiesMeta: Meta = {
-  title: `Image`,
-  component: Image,
+  title: `ImageAndTextBlock`,
+  component: ImageAndTextBlock,
   parameters: {
     layout: 'fullscreen',
   },
@@ -12,22 +12,22 @@ const storiesMeta: Meta = {
 
 export default storiesMeta;
 
-export const Image1 = () => (
+export const BasicStory = () => (
   <>
-    <Image
+    <ImageAndTextBlock
       bgColor="rgb(72,71,169)"
       headerText="Sed Ipsum Dolor"
-      bgImage="http://jared.howtocomputer.link/img/pillars.jpg"
+      bgImage="/clouds.jpg"
     />
-    <Image
+    <ImageAndTextBlock
       bgColor="rgb(68,67,160)"
       headerText="Feugiat consequat"
-      bgImage="http://jared.howtocomputer.link/img/pillars.jpg"
+      bgImage="/sunset.jpg"
     />
-    <Image
+    <ImageAndTextBlock
       bgColor="rgb(65,64,152)"
       headerText="Ultricies aliqua"
-      bgImage="http://jared.howtocomputer.link/img/pillars.jpg"
+      bgImage="/traffic.jpg"
     />
   </>
 );
