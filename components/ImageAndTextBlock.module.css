@@ -44,9 +44,15 @@
 
   .textBlock {
     padding: 70px;
+    padding-bottom: 0;
+    width: 67%;
   }
 
   .imageWrap {
-    height: 350;
+    height: 350px;
+    width: 33%;
+  }
+  .imageWrap > img {
+    height: 350px;
   }
 }
