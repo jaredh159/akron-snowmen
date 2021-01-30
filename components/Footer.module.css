@@ -1,6 +1,6 @@
 .footer {
   height: 175px;
-  background-color: var(--med-purple);
+  background-color: rgb(65, 47, 114);
   width: 100%;
 }
 
@@ -70,8 +70,3 @@
     padding-left: 0.9rem;
   }
 }
-/* .links {
-    flex-direction: row;
-    align-items: center;
-    padding-top: 30px;
-  } */
