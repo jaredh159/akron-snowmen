@@ -13,7 +13,7 @@ const HeroBlock: React.FC = () => {
           Ohio.
         </p>
         <div className={styles.button}>
-          <Button>LEARN MORE</Button>
+          <Button className={styles.heroBlockButton}>LEARN MORE</Button>
         </div>
       </div>
     </div>

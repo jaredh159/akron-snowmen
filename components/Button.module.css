@@ -6,12 +6,10 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 30px;
   padding: 18px 0;
-  width: 250px;
   text-align: center;
   letter-spacing: 2px;
   cursor: pointer;
-  transition-duration: 300ms;
-  margin: 40px 0 40px 0;
+  transition-duration: 200ms;
 }
 
 .btn:hover {
@@ -19,9 +17,6 @@
   border: 1px solid rgba(225, 225, 225, 0.7);
 }
 
-@media (max-width: 640px) {
-  .btn {
-    width: 100%;
-    padding: 18px 0;
-  }
+.btn:focus {
+  outline: none;
 }
