@@ -2,7 +2,7 @@
   /* todo */
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024) {
   .homePage main {
     margin-left: 310px;
   }
