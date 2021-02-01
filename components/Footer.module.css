@@ -1,6 +1,6 @@
 .footer {
   height: 175px;
-  background-color: rgb(65, 47, 114);
+  background-color: var(--footer-purple);
   width: 100%;
 }
 
