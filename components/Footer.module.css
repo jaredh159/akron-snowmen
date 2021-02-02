@@ -1,6 +1,6 @@
 .footer {
   height: 175px;
-  background-color: var(--med-purple);
+  background-color: var(--footer-purple);
   width: 100%;
 }
 
@@ -8,7 +8,7 @@
   display: flex;
   flex-direction: column;
   height: 75%;
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.2);
   font-family: Arial;
   font-size: 12px;
   justify-content: space-evenly;
@@ -18,8 +18,11 @@
 }
 
 .second {
-  border-bottom: 1px dotted rgba(255, 255, 255, 0.3);
   width: 118px;
+}
+
+.virtuoso {
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.3);
 }
 
 .htc {
@@ -31,24 +34,39 @@
   .footer {
     height: 115px;
   }
+
   .links {
-    flex-direction: row;
-    align-items: center;
-    padding-top: 30px;
+    display: block;
+    padding-top: 2.7rem;
   }
-  .third {
-    padding-left: 30px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+
+  .items {
+    display: inline-block;
   }
+
   .first {
-    padding-left: 20px;
-    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    padding-left: 0.2rem;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
     padding-right: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
   }
+
+  .second {
+    width: 10rem;
+    text-align: center;
+  }
+
   .third {
-    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+  }
+}
+
+@media (min-width: 768px) {
+  .first {
+    padding-left: 0.9rem;
   }
 }
