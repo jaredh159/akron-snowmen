@@ -7,6 +7,7 @@
 
 .buttonWrapper {
   padding-top: 0rem;
+  margin: 40px 0;
 }
 
 .h1 {
@@ -17,12 +18,6 @@
   padding-bottom: 20px;
   color: rgba(255, 255, 255, 0.5);
   max-width: 755px;
-}
-
-@media (min-width: 890px) {
-  .p {
-    width: 850px;
-  }
 }
 
 .h1 {
