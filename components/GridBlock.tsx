@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './GridBlock.module.css';
 import cx from 'classnames';
+import BodyText from './BodyText';
 
 type Props = {
   title: string;
@@ -19,7 +20,7 @@ const GridBlock: React.FC<Props> = ({ title, paragraph, className, icon }) => {
       </div>
       <div className={styles.rightChunk}>
         <h2>{title}</h2>
-        <p>{paragraph}</p>
+        <BodyText>{paragraph}</BodyText>
       </div>
     </div>
   );

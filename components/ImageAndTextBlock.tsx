@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './ImageAndTextBlock.module.css';
 import Button from './Button';
+import BodyText from './BodyText';
 
 type Props = {
   bgColor: string;
@@ -16,10 +17,11 @@ const ImageAndTextBlock: React.FC<Props> = ({ bgColor, headerText, bgImage }) =>
       </div>
       <div className={styles.textBlock} style={{ backgroundColor: bgColor }}>
         <h1 className={styles.header}>{headerText}</h1>
-        <div className={styles.text}>
-          Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu
-          ultricies erat malesuada quis. Aliquam dapibus.
-        </div>
+        <BodyText>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem fugiat, sed ipsa
+          ad ab temporibus sequi quasi beatae nihil accusamus fugit? Vero ipsam velit
+          obcaecati ipsum neque itaque ullam rerum.
+        </BodyText>
         <Button className={styles.imageAndTextBlockButton}>LEARN MORE</Button>
       </div>
     </div>

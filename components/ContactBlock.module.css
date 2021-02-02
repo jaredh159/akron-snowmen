@@ -41,7 +41,8 @@
 }
 
 .mainText {
-  color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 20px;
+  max-width: 800px;
 }
 
 .rodEmail {
@@ -59,10 +60,6 @@
   .main {
     display: flex;
     margin-bottom: 100px;
-  }
-
-  .mainText {
-    width: 50%;
   }
 
   .info {

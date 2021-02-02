@@ -1,16 +1,18 @@
 import React from 'react';
 import Form from './Form';
 import styles from './ContactBlock.module.css';
+import BodyText from './BodyText';
 
 const ContactBlock: React.FC = () => {
   return (
     <div className={styles.entire}>
       <h3 className={styles.mainHeader}>Get in touch</h3>
-      <p className={styles.mainText}>
-        three fishers went sailing out into the west out into the west as the sun went
-        down and each thought of the woman that loved him the best and the children stood
-        watching them out on the town
-      </p>
+
+      <BodyText className={styles.mainText}>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae esse deleniti
+        voluptates non tenetur consectetur qui magnam error id similique quos tempore,
+        itaque corporis, earum dolore delectus perspiciatis inventore labore?
+      </BodyText>
 
       <div className={styles.main}>
         <div className={styles.formWrapper}>
