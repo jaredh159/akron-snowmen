@@ -17,18 +17,18 @@ const Home: React.FC = () => {
         <HeroBlock />
         <ImageAndTextBlock
           bgColor="rgb(72,71,169)"
-          headerText="Sed Ipsum Dolor"
-          bgImage="./clouds.jpg"
+          headerText="Sed ipsum dolor"
+          bgImage="./sunset.jpg"
         />
         <ImageAndTextBlock
           bgColor="rgb(68,67,160)"
           headerText="Feugiat consequat"
-          bgImage="./sunset.jpg"
+          bgImage="./traffic.jpg"
         />
         <ImageAndTextBlock
           bgColor="rgb(65,64,152)"
           headerText="Ultricies aliqua"
-          bgImage="./traffic.jpg"
+          bgImage="./clouds.jpg"
         />
         <PinkBlock />
         <ContactBlock />

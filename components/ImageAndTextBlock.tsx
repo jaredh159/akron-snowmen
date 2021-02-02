@@ -17,9 +17,8 @@ const ImageAndTextBlock: React.FC<Props> = ({ bgColor, headerText, bgImage }) =>
       <div className={styles.textBlock} style={{ backgroundColor: bgColor }}>
         <h1 className={styles.header}>{headerText}</h1>
         <div className={styles.text}>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, alias dolore.
-          Architecto ipsam corporis libero est soluta ipsum culpa quas ipsa neque,
-          possimus nulla odio esse itaque aspernatur quos exercitationem!
+          Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu
+          ultricies erat malesuada quis. Aliquam dapibus.
         </div>
         <Button className={styles.imageAndTextBlockButton}>LEARN MORE</Button>
       </div>
