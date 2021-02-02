@@ -14,6 +14,6 @@ export default storiesMeta;
 
 export const Primary = () => (
   <div style={{ padding: `2em`, backgroundColor: `var(--light-purple)` }}>
-    <Button>LEARN MORE</Button>
+    <Button width="250px">LEARN MORE</Button>
   </div>
 );

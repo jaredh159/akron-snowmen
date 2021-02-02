@@ -21,7 +21,7 @@ const ImageAndTextBlock: React.FC<Props> = ({ bgColor, headerText, bgImage }) =>
           Architecto ipsam corporis libero est soluta ipsum culpa quas ipsa neque,
           possimus nulla odio esse itaque aspernatur quos exercitationem!
         </div>
-        <Button>LEARN MORE</Button>
+        <Button className={styles.imageAndTextBlockButton}>LEARN MORE</Button>
       </div>
     </div>
   );

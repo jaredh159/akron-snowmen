@@ -53,3 +53,15 @@
     margin-left: 30px;
   }
 }
+
+.formButton {
+  width: 250px;
+  margin-top: 3em;
+  margin-bottom: 4em;
+}
+
+@media (max-width: 640px) {
+  .formButton {
+    width: 100%;
+  }
+}
