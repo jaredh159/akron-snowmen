@@ -2,10 +2,11 @@
   background: var(--pink);
   padding: 3rem 2rem;
   font-family: 'Arial', sans-serif;
+  line-height: 150%;
 }
 
 .buttonWrapper {
-  padding-top: 4rem;
+  padding-top: 0rem;
 }
 
 .h1 {
@@ -14,10 +15,22 @@
 
 .p {
   padding-bottom: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  max-width: 755px;
 }
 
 @media (min-width: 890px) {
   .p {
     width: 850px;
+  }
+}
+
+.h1 {
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .pinkBlock {
+    padding-left: 70px;
   }
 }

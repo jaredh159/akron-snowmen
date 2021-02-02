@@ -14,5 +14,6 @@ export const Mobile = () => (
     title="Lorem ipsum amet"
     paragraph="Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus."
     className="foo"
+    icon="fas fa-code"
   />
 );

@@ -2,16 +2,19 @@
   font-family: Arial;
   color: white;
   display: flex;
-  padding: 30px;
+  padding: 4rem 2rem 2rem 2rem;
   flex-direction: column;
-  font-size: 0.9em;
+}
+
+.header {
+  font-size: 30px;
 }
 
 .imageWrap {
   width: 100%;
   overflow: hidden;
   position: relative;
-  height: 280px;
+  height: 320px;
 }
 
 .imageWrap > img {
@@ -37,9 +40,27 @@
 
   .textBlock {
     padding: 70px;
+    padding-bottom: 0;
+    width: 67%;
   }
 
   .imageWrap {
-    height: auto;
+    height: 350px;
+    width: 33%;
+  }
+  .imageWrap > img {
+    height: 350px;
+  }
+}
+
+.imageAndTextBlockButton {
+  width: 200px;
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+@media (max-width: 640px) {
+  .imageAndTextBlockButton {
+    width: 100%;
   }
 }

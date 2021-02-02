@@ -2,14 +2,14 @@
   /* todo */
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .homePage main {
-    margin-left: 300px;
+    margin-left: 310px;
   }
 
   .nav > ul {
     height: 100vh;
     position: fixed;
-    width: 300px;
+    width: 310px;
   }
 }
