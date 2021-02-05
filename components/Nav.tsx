@@ -4,10 +4,18 @@ import styles from './Nav.module.css';
 const Nav: React.FC = () => {
   return (
     <ul className={styles.outerNav}>
-      <li className={styles.link}>Welcome</li>
-      <li className={styles.link}>Who We Are</li>
-      <li className={styles.link}>What We Do</li>
-      <li className={styles.link}>Get In Touch</li>
+      <li className={styles.link}>
+        <a href="#heroBlock">Welcome</a>
+      </li>
+      <li className={styles.link}>
+        <a href="#ImageBlock">Who We Are</a>
+      </li>
+      <li className={styles.link}>
+        <a href="#pinkBlock">What We Do</a>
+      </li>
+      <li className={styles.link}>
+        <a href="#contactBlock">Get In Touch</a>
+      </li>
     </ul>
   );
 };
