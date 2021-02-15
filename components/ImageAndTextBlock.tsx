@@ -7,11 +7,12 @@ type Props = {
   bgColor: string;
   headerText: string;
   bgImage: string;
+  id?: string;
 };
 
-const ImageAndTextBlock: React.FC<Props> = ({ bgColor, headerText, bgImage }) => {
+const ImageAndTextBlock: React.FC<Props> = ({ bgColor, headerText, bgImage, id }) => {
   return (
-    <div className={styles.main}>
+    <div className={styles.main} id={id}>
       <div className={styles.imageWrap}>
         <img src={bgImage} alt="@TODO" />
       </div>

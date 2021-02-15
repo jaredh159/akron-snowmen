@@ -6,7 +6,7 @@ import BodyText from './BodyText';
 
 const PinkBlock: React.FC = () => {
   return (
-    <div className={styles.pinkBlock}>
+    <div className={styles.pinkBlock} id="pinkBlock">
       <h2 className={styles.h1}>What we do</h2>
       <BodyText className={styles.p}>
         Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu

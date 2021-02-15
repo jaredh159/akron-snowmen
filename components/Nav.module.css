@@ -20,8 +20,7 @@
   text-transform: uppercase;
 }
 
-/* This should be :active instead of :hover, need to change later */
-.link:hover::after {
+.active::after {
   content: '';
   display: block;
   position: absolute;
@@ -43,10 +42,9 @@
     margin: 0;
   }
 
-  .link:hover::after {
+  .active::after {
     background: linear-gradient(to left, var(--pink), var(--med-purple));
   }
-
   .link {
     padding-top: 15px;
     padding-bottom: 15px;

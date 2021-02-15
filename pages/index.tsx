@@ -19,6 +19,7 @@ const Home: React.FC = () => {
           bgColor="rgb(72,71,169)"
           headerText="Sed ipsum dolor"
           bgImage="./sunset.jpg"
+          id="ImageBlock"
         />
         <ImageAndTextBlock
           bgColor="rgb(68,67,160)"

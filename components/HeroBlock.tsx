@@ -5,7 +5,7 @@ import BodyText from './BodyText';
 
 const HeroBlock: React.FC = () => {
   return (
-    <div className={styles.entire}>
+    <div className={styles.entire} id="heroBlock">
       <img src="./plow.jpg" className={styles.image} alt="plow" />
 
       <div className={styles.overlay}>
