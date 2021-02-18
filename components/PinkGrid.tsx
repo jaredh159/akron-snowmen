@@ -6,40 +6,40 @@ const PinkGrid: React.FC = () => {
   return (
     <div className={styles.entireGrid}>
       <GridBlock
-        title="Lorem ipsum amet"
-        paragraph="Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus."
+        title="Plowing"
+        paragraph="We plow parking lots, driveways, roads, and more."
         className={styles.block}
-        icon="fas fa-code"
+        icon="fas fa-snowplow"
       />
       <GridBlock
-        title="Aliquam sed nullam"
-        paragraph="Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus."
+        title="Ice Removal"
+        paragraph="We salt parking lots, driveways, roads and more."
         className={styles.block}
-        icon="fas fa-lock"
+        icon="fas fa-icicles"
       />
       <GridBlock
-        title="Sed erat ullam corper"
-        paragraph="Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus."
+        title="Walkway Clearing"
+        paragraph="We hand shovel walkways."
         className={styles.block}
-        icon="fas fa-cog"
+        icon="fas fa-socks"
       />
       <GridBlock
-        title="Veroeros quis lorem"
-        paragraph="Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus."
+        title="Walkway Salting"
+        paragraph="We hand salt walkways."
         className={styles.block}
-        icon="fas fa-desktop"
+        icon="fas fa-temperature-low"
       />
       <GridBlock
-        title="Urna quis bibendum"
-        paragraph="Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus."
+        title="Available 24/7"
+        paragraph="We are always available to clear your property, or touch up after a storm."
         className={styles.block}
-        icon="fas fa-link"
+        icon="far fa-clock"
       />
       <GridBlock
-        title="Aliquam urna dapibus"
-        paragraph="Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus."
+        title="Guaranteed Salt Supply"
+        paragraph="We work directly with salt suppliers and mines, and can guarantee supply."
         className={styles.block}
-        icon="fas fa-gem"
+        icon="fas fa-tree"
       />
     </div>
   );
