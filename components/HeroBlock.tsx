@@ -13,8 +13,7 @@ const HeroBlock: React.FC = () => {
 
         <BodyText>
           {' '}
-          Commercial snow plowing, snow removal, and ice removal, based in Wadsworth,
-          Ohio.
+          Commercial snow plowing, shoveling, and salting, based here in Akron, Ohio.
         </BodyText>
 
         <div className={styles.button}>
