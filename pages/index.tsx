@@ -21,8 +21,7 @@ const Home: React.FC = () => {
           bgImage="./sunset.jpg"
           id="ImageBlock"
         >
-          So we get rid of your snow. Simple as that.
-          <br />
+          <h4>So we get rid of your snow. Simple as that.</h4>
           Okay, not really; it takes hard work as well as dedicaton to our field and
           customers to accomplish what Akron Snowmen does for all its clients.
         </ImageAndTextBlock>
