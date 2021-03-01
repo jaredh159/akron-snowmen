@@ -15,7 +15,7 @@ const GridBlock: React.FC<Props> = ({ title, paragraph, className, icon }) => {
     <div className={cx(styles.entireBlock, className)}>
       <div className={styles.leftChunk}>
         <div className={styles.icon}>
-          <i className={icon}></i>
+          <i aria-hidden="false" className={icon}></i>
         </div>
       </div>
       <div className={styles.rightChunk}>
