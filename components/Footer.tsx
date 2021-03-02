@@ -4,7 +4,7 @@ import styles from './Footer.module.css';
 
 const Footer: React.FC = () => {
   return (
-    <div className={styles.footer}>
+    <footer className={styles.footer}>
       <ul className={styles.links}>
         <li className={cx(styles.first, styles.items)}>© 2020 — All rights reserved.</li>
         <li className={cx(styles.second, styles.items)}>
@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
           </a>
         </li>
       </ul>
-    </div>
+    </footer>
   );
 };
 
