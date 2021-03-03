@@ -1,7 +1,7 @@
-import React from 'react';
-import Button from './Button';
-import cx from 'classnames';
-import styles from './Form.module.css';
+import React from "react";
+import Button from "./Button";
+import cx from "classnames";
+import styles from "./Form.module.css";
 
 const Form: React.FC = () => {
   return (

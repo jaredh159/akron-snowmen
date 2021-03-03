@@ -1,8 +1,8 @@
 // @ts-check
 // @see https://gist.github.com/justincy/b8805ae2b333ac98d5a3bd9f431e8f70
 
-const path = require('path');
-const webpack = require('webpack');
+const path = require("path");
+const webpack = require("webpack");
 
 module.exports = {
   webpackFinal: async (baseConfig, options) => {
@@ -21,19 +21,19 @@ module.exports = {
     newConfig.module.rules.push({
       test: /\.(ts|tsx)$/,
       include: [
-        path.resolve(__dirname, '../components'),
-        path.resolve(__dirname, '../stories'),
+        path.resolve(__dirname, "../components"),
+        path.resolve(__dirname, "../stories"),
       ],
       use: [
         {
-          loader: 'babel-loader',
+          loader: "babel-loader",
           options: {
-            presets: ['next/babel'],
+            presets: ["next/babel"],
           },
         },
       ],
     });
-    newConfig.resolve.extensions.push('.ts', '.tsx');
+    newConfig.resolve.extensions.push(".ts", ".tsx");
 
     //
     // CSS Modules
@@ -42,17 +42,17 @@ module.exports = {
 
     // First we prevent webpack from using Storybook CSS rules to process CSS modules
     newConfig.module.rules.find(
-      (rule) => rule.test.toString() === '/\\.css$/',
+      (rule) => rule.test.toString() === "/\\.css$/"
     ).exclude = /\.module\.css$/;
 
     // Then we tell webpack what to do with CSS modules
     newConfig.module.rules.push({
       test: /\.module\.css$/,
-      include: path.resolve(__dirname, '../components'),
+      include: path.resolve(__dirname, "../components"),
       use: [
-        'style-loader',
+        "style-loader",
         {
-          loader: 'css-loader',
+          loader: "css-loader",
           options: {
             importLoaders: 1,
             modules: true,

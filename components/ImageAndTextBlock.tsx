@@ -1,7 +1,7 @@
-import React from 'react';
-import styles from './ImageAndTextBlock.module.css';
-import Button from './Button';
-import BodyText from './BodyText';
+import React from "react";
+import styles from "./ImageAndTextBlock.module.css";
+import Button from "./Button";
+import BodyText from "./BodyText";
 
 type Props = {
   bgColor: string;
@@ -10,7 +10,12 @@ type Props = {
   id?: string;
 };
 
-const ImageAndTextBlock: React.FC<Props> = ({ bgColor, headerText, bgImage, id }) => {
+const ImageAndTextBlock: React.FC<Props> = ({
+  bgColor,
+  headerText,
+  bgImage,
+  id,
+}) => {
   return (
     <div className={styles.main} id={id}>
       <div className={styles.imageWrap}>
@@ -19,9 +24,9 @@ const ImageAndTextBlock: React.FC<Props> = ({ bgColor, headerText, bgImage, id }
       <div className={styles.textBlock} style={{ backgroundColor: bgColor }}>
         <h1 className={styles.header}>{headerText}</h1>
         <BodyText>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem fugiat, sed ipsa
-          ad ab temporibus sequi quasi beatae nihil accusamus fugit? Vero ipsam velit
-          obcaecati ipsum neque itaque ullam rerum.
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem fugiat,
+          sed ipsa ad ab temporibus sequi quasi beatae nihil accusamus fugit?
+          Vero ipsam velit obcaecati ipsum neque itaque ullam rerum.
         </BodyText>
         <Button className={styles.imageAndTextBlockButton}>LEARN MORE</Button>
       </div>

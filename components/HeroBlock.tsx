@@ -1,7 +1,7 @@
-import React from 'react';
-import styles from './HeroBlock.module.css';
-import Button from './Button';
-import BodyText from './BodyText';
+import React from "react";
+import styles from "./HeroBlock.module.css";
+import Button from "./Button";
+import BodyText from "./BodyText";
 
 const HeroBlock: React.FC = () => {
   return (
@@ -12,9 +12,9 @@ const HeroBlock: React.FC = () => {
         <h1>Akron Snowmen</h1>
 
         <BodyText>
-          {' '}
-          Commercial snow plowing, snow removal, and ice removal, based in Wadsworth,
-          Ohio.
+          {" "}
+          Commercial snow plowing, snow removal, and ice removal, based in
+          Wadsworth, Ohio.
         </BodyText>
 
         <div className={styles.button}>

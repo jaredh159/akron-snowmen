@@ -1,6 +1,6 @@
-import React from 'react';
-import { Meta } from '@storybook/react';
-import PinkGrid from '../components/PinkGrid';
+import React from "react";
+import { Meta } from "@storybook/react";
+import PinkGrid from "../components/PinkGrid";
 
 const storiesMeta: Meta = {
   title: `PinkGrid`,
