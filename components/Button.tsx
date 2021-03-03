@@ -1,6 +1,6 @@
-import React from "react";
-import styles from "./Button.module.css";
-import cx from "classnames";
+import React from 'react';
+import styles from './Button.module.css';
+import cx from 'classnames';
 
 type Props = {
   className?: string;
@@ -10,7 +10,7 @@ type Props = {
 const Button: React.FC<Props> = ({ className, width, children }) => {
   return (
     <button className={cx(styles.btn, className)} style={{ width: width }}>
-      {children}{" "}
+      {children}{' '}
     </button>
   );
 };

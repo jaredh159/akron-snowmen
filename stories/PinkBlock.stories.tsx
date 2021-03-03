@@ -1,12 +1,12 @@
-import React from "react";
-import { Meta } from "@storybook/react";
-import PinkBlock from "../components/PinkBlock";
+import React from 'react';
+import { Meta } from '@storybook/react';
+import PinkBlock from '../components/PinkBlock';
 
 const storiesMeta: Meta = {
   title: `PinkBlock`,
   component: PinkBlock,
   parameters: {
-    layout: "fullscreen",
+    layout: 'fullscreen',
   },
 };
 

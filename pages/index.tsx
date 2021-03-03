@@ -1,11 +1,11 @@
-import React from "react";
-import HeroBlock from "../components/HeroBlock";
-import ContactBlock from "../components/ContactBlock";
-import ImageAndTextBlock from "../components/ImageAndTextBlock";
-import PinkBlock from "../components/PinkBlock";
-import Footer from "../components/Footer";
-import Nav from "../components/Nav";
-import styles from "./index.module.css";
+import React from 'react';
+import HeroBlock from '../components/HeroBlock';
+import ContactBlock from '../components/ContactBlock';
+import ImageAndTextBlock from '../components/ImageAndTextBlock';
+import PinkBlock from '../components/PinkBlock';
+import Footer from '../components/Footer';
+import Nav from '../components/Nav';
+import styles from './index.module.css';
 
 const Home: React.FC = () => {
   return (
