@@ -13,4 +13,3 @@ const storiesMeta: Meta = {
 export default storiesMeta;
 
 export const THB = () => <TeamHero />;
-

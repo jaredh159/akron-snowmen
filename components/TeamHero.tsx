@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './HeroBlock.module.css';
-import Button from './Button';
 import BodyText from './BodyText';
 
 const TeamHero: React.FC = () => {
@@ -9,16 +8,13 @@ const TeamHero: React.FC = () => {
       <img src="./team.jpg" className={styles.image} alt="team" />
 
       <div className={styles.overlay}>
-        <h1>Akron Snowmen</h1>
+        <h1>Our Team</h1>
 
         <BodyText>
           {' '}
-          Commercial snow plowing, shoveling, and salting, based here in Akron, Ohio.
+          Our team of shovelers and salters is out during every storm keeping your
+          property clean and snow-free.
         </BodyText>
-
-        <div className={styles.button}>
-          <Button className={styles.heroBlockButton}>LEARN MORE</Button>
-        </div>
       </div>
     </div>
   );
