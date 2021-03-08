@@ -44,6 +44,10 @@
     width: 67%;
   }
 
+  .right .imageWrap {
+    order: 2;
+  }
+
   .imageWrap {
     height: 350px;
     width: 33%;

@@ -43,3 +43,46 @@ export const BasicStory = () => (
     </ImageAndTextBlock>
   </>
 );
+
+export const TeamMember = () => {
+  return (
+    <ImageAndTextBlock
+      bgColor="rgb(72,71,169)"
+      headerText="Josué Rodriguez"
+      bgImage="/josue2.jpg"
+      buttonShown={false}
+    >
+      Josue hates stretching, and has never seen the point in voluntarily exercising. At
+      37 he still gets a kick out of sledding once a storm is over.
+    </ImageAndTextBlock>
+  );
+};
+
+export const JosueLeft = () => {
+  return (
+    <ImageAndTextBlock
+      bgColor="rgb(72,71,169)"
+      headerText="Josué Rodriguez"
+      bgImage="/josue2.jpg"
+      buttonShown={false}
+    >
+      Josue hates stretching, and has never seen the point in voluntarily exercising. At
+      37 he still gets a kick out of sledding once a storm is over.
+    </ImageAndTextBlock>
+  );
+};
+
+export const JosueRight = () => {
+  return (
+    <ImageAndTextBlock
+      bgColor="rgb(72,71,169)"
+      headerText="Josué Rodriguez"
+      bgImage="/josue2.jpg"
+      buttonShown={false}
+      right={true}
+    >
+      Josue hates stretching, and has never seen the point in voluntarily exercising. At
+      37 he still gets a kick out of sledding once a storm is over.
+    </ImageAndTextBlock>
+  );
+};
