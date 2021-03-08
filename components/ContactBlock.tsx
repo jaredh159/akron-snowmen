@@ -6,14 +6,11 @@ import BodyText from './BodyText';
 const ContactBlock: React.FC = () => {
   return (
     <div className={styles.entire} id="contactBlock">
-      <h3 className={styles.mainHeader}>Get in touch</h3>
-
+      <h3 className={styles.mainHeader}>Contact Us</h3>
       <BodyText className={styles.mainText}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae esse deleniti
-        voluptates non tenetur consectetur qui magnam error id similique quos tempore,
-        itaque corporis, earum dolore delectus perspiciatis inventore labore?
+        Want to talk about <i>your</i> snow and ice removal? Submit the form below for a
+        free bid.
       </BodyText>
-
       <div className={styles.main}>
         <div className={styles.formWrapper}>
           <Form />
@@ -23,24 +20,22 @@ const ContactBlock: React.FC = () => {
           <div>
             <h1>Address</h1>
             <p>
-              123 Dina Line
+              2430 S. Medina Line
               <br />
               Wadsworth Oh, 44281
               <br />
               USA
             </p>
           </div>
-
           <div>
             <h1>Email</h1>
-            <a href="mailto:rod@akronsnowmen.com" className={styles.rodEmail}>
-              rod@akronsnowmen.com
+            <a href="mailto:virtuoso.rod@gmail.com" className={styles.rodEmail}>
+              virtuoso.rod@gmail.com
             </a>
           </div>
-
           <div>
             <h1>Phone</h1>
-            <a href="tel:5555551234">(555) 555-1234</a>
+            <a href="tel:3304191527">(330) 419-1527</a>
           </div>
         </div>
       </div>
