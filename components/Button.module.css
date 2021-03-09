@@ -10,6 +10,7 @@
   letter-spacing: 2px;
   cursor: pointer;
   transition-duration: 200ms;
+  text-transform: uppercase;
 }
 
 .btn:hover {

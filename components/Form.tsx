@@ -23,7 +23,7 @@ const Form: React.FC = () => {
         <textarea rows={10}></textarea>
       </div>
 
-      <Button className={styles.formButton}>SEND MESSAGE</Button>
+      <Button className={styles.formButton}>Send Message</Button>
     </form>
   );
 };
