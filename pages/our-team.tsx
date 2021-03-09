@@ -10,7 +10,7 @@ const Home: React.FC = () => {
       <ImageAndTextBlock
         bgColor="rgb(72,71,169)"
         headerText="Rod Costa"
-        bgImage="/rod.png"
+        bgImage="./josue2.jpg"
         buttonShown={false}
       >
         Rod hates giving orders, even though he is the boss of Akron Snowmen. He has been
@@ -21,7 +21,7 @@ const Home: React.FC = () => {
       <ImageAndTextBlock
         bgColor="rgb(72,71,169)"
         headerText="Kristi Ensminger"
-        bgImage="/kristi.png"
+        bgImage="./josue1.jpg"
         buttonShown={false}
         right={true}
       >
@@ -31,7 +31,7 @@ const Home: React.FC = () => {
       <ImageAndTextBlock
         bgColor="rgb(72,71,169)"
         headerText="Josué Rodriguez"
-        bgImage="/josue2.jpg"
+        bgImage="./josue2.jpg"
         buttonShown={false}
       >
         Josue hates stretching, and has never seen the point in voluntarily exercising. At
