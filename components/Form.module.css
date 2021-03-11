@@ -34,6 +34,10 @@
   color: white;
 }
 
+.form textarea {
+  resize: vertical;
+}
+
 .form textarea:focus,
 .form input:focus {
   border-color: white;
