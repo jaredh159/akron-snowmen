@@ -9,11 +9,11 @@
 .aTag {
   height: 100%;
   width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .link {
-  padding-top: 20px;
-  padding-bottom: 20px;
   margin-left: 12px;
   margin-right: 12px;
   letter-spacing: 1px;
