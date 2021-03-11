@@ -6,7 +6,7 @@ import BodyText from './BodyText';
 
 const PinkBlock: React.FC = () => {
   return (
-    <div className={styles.pinkBlock} id="pinkBlock">
+    <div className={styles.pinkBlock} id="our-services">
       <h2 className={styles.h1}>Our Services</h2>
       <BodyText className={styles.p}>
         Akron Snowmen plows industrial, commercial, and corporate properties in the Akron

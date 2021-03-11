@@ -4,7 +4,7 @@ import cx from 'classnames';
 
 type Props = {
   className?: string;
-  width?: string; // because that way you can pick the unit
+  width?: string;
 };
 
 const Button: React.FC<Props> = ({ className, width, children }) => {

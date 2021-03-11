@@ -3,39 +3,38 @@ import styles from './Nav.module.css';
 import cx from 'classnames';
 
 const Nav: React.FC = () => {
-  const [whoseActive, setWhoseActive] = useState<
-    'welcome' | 'about' | 'services' | 'contact'
-  >('welcome');
+  const [active, setActive] = useState<'welcome' | 'about' | 'services' | 'contact'>(
+    'welcome',
+  );
 
   return (
     <ul className={styles.outerNav}>
       <li
-        className={cx(styles.link, whoseActive === 'welcome' ? styles.active : '')}
-        onClick={() => setWhoseActive('welcome')}
+        className={cx(styles.link, active === 'welcome' ? styles.active : '')}
+        onClick={() => setActive('welcome')}
       >
-        <a href="#heroBlock">Welcome</a>
-        {/*I really can't think of anything else for the first link (^) */}
+        <a href="#welcome">Welcome</a>
       </li>
 
       <li
-        className={cx(styles.link, whoseActive === 'about' ? styles.active : '')}
-        onClick={() => setWhoseActive('about')}
+        className={cx(styles.link, active === 'about' ? styles.active : '')}
+        onClick={() => setActive('about')}
       >
-        <a href="#ImageBlock">About us</a>
+        <a href="#about-us">About us</a>
       </li>
 
       <li
-        className={cx(styles.link, whoseActive === 'services' ? styles.active : '')}
-        onClick={() => setWhoseActive('services')}
+        className={cx(styles.link, active === 'services' ? styles.active : '')}
+        onClick={() => setActive('services')}
       >
-        <a href="#pinkBlock">Our Services</a>
+        <a href="#our-services">Our Services</a>
       </li>
 
       <li
-        className={cx(styles.link, whoseActive === 'contact' ? styles.active : '')}
-        onClick={() => setWhoseActive('contact')}
+        className={cx(styles.link, active === 'contact' ? styles.active : '')}
+        onClick={() => setActive('contact')}
       >
-        <a href="#contactBlock">Contact Us</a>
+        <a href="#contact-us">Contact Us</a>
       </li>
     </ul>
   );
