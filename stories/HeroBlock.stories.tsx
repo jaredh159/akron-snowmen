@@ -1,12 +1,12 @@
-import React from 'react';
-import { Meta } from '@storybook/react';
-import HeroBlock from '../components/HeroBlock';
+import React from "react";
+import { Meta } from "@storybook/react";
+import HeroBlock from "../components/HeroBlock";
 
 const storiesMeta: Meta = {
   title: `HeroBlock`,
   component: HeroBlock,
   parameters: {
-    layout: 'fullscreen',
+    layout: "fullscreen",
   },
 };
 

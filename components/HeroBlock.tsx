@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './HeroBlock.module.css';
+import styles from './styles/HeroBlock.module.css';
 import Button from './Button';
 import BodyText from './BodyText';
 

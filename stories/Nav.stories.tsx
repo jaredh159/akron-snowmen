@@ -1,6 +1,6 @@
-import React from 'react';
-import { Meta } from '@storybook/react';
-import Nav from '../components/Nav';
+import React from "react";
+import { Meta } from "@storybook/react";
+import Nav from "../components/Nav";
 
 const storiesMeta: Meta = {
   title: `Nav`,

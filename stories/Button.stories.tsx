@@ -1,12 +1,12 @@
-import React from 'react';
-import { Meta } from '@storybook/react';
-import Button from '../components/Button';
+import React from "react";
+import { Meta } from "@storybook/react";
+import Button from "../components/Button";
 
 const storiesMeta: Meta = {
   title: `Button`,
   component: Button,
   parameters: {
-    layout: 'centered',
+    layout: "centered",
   },
 };
 
