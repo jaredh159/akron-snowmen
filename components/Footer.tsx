@@ -3,10 +3,13 @@ import cx from 'classnames';
 import styles from './Footer.module.css';
 
 const Footer: React.FC = () => {
+  const now = new Date();
   return (
     <footer className={styles.footer}>
       <ul className={styles.links}>
-        <li className={cx(styles.first, styles.items)}>© 2021 — All rights reserved.</li>
+        <li className={cx(styles.first, styles.items)}>
+          © {now.getFullYear()} — All rights reserved.
+        </li>
         <li className={cx(styles.second, styles.items)}>
           <a className={styles.virtuoso} href="https://virtuosolanscapes.com">
             Virtuoso Landscaping
