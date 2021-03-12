@@ -1,12 +1,12 @@
 .pinkBlock {
   background: var(--pink);
   padding: 3rem 2rem;
-  font-family: "Arial", sans-serif;
+  font-family: Arial, sans-serif;
   line-height: 150%;
 }
 
 .buttonWrapper {
-  padding-top: 0rem;
+  padding-top: 0;
   margin: 40px 0;
 }
 

@@ -1,11 +1,10 @@
 .layout main {
   display: flex;
   flex-direction: column;
-  min-height: calc(100vh - 54px); /* 54 is height of header on small screens */
+  min-height: calc(100vh - 54px);
 }
 
 .layout main footer {
-  /* this just keeps the footer pinned to the btm of screen */
   margin-top: auto;
 }
 

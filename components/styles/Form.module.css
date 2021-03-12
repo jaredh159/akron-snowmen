@@ -15,6 +15,7 @@
   font-size: 1.1rem;
 }
 
+.formDiv,
 .inputs {
   display: flex;
   flex-direction: column;
@@ -25,9 +26,7 @@
   display: block;
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.06);
-  border-color: rgba(255, 255, 255, 0.1);
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
   padding: 15px;
   margin-top: 5px;
   font-family: Arial, sans-serif;
@@ -41,8 +40,7 @@
 
 .form textarea:focus,
 .form input:focus {
-  border-color: white;
-  border-width: 1px;
+  border: 1px solid white;
   box-shadow: 0 0 0 1px #fff;
   outline: none;
 }
@@ -61,8 +59,7 @@
 
 .formButton {
   width: 250px;
-  margin-top: 3em;
-  margin-bottom: 4em;
+  margin: 3em 0 0 4em;
 }
 
 @media (max-width: 640px) {
