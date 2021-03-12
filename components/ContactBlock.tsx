@@ -30,7 +30,7 @@ const ContactBlock: React.FC = () => {
           </div>
           <div>
             <h1>Email</h1>
-            <a href="mailto:virtuoso.rod@gmail.com" className={styles.rodEmail}>
+            <a href="mailto:virtuoso.rod@gmail.com" className={styles.email}>
               virtuoso.rod@gmail.com
             </a>
           </div>

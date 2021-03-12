@@ -12,7 +12,6 @@ const HeroBlock: React.FC = () => {
         <h1>Akron Snowmen</h1>
 
         <BodyText>
-          {' '}
           Commercial snow plowing, shoveling, and salting, based in Wadsworth, Ohio.
         </BodyText>
 
