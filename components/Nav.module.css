@@ -2,8 +2,11 @@
   list-style: none;
   background-color: var(--dark-purple);
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
   margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 .link {
@@ -13,7 +16,7 @@
   margin-right: 12px;
   letter-spacing: 1px;
   font-family: 'Arial';
-  font-size: 11px;
+  font-size: 9px;
   color: rgba(255, 255, 255, 0.5);
   font-weight: bold;
   position: relative;
@@ -40,6 +43,7 @@
     align-items: center;
     padding: 0;
     margin: 0;
+    justify-content: center;
   }
 
   .link::after {
@@ -62,5 +66,6 @@
     margin: 0;
     text-align: right;
     width: 80%;
+    font-size: 12px;
   }
 }
