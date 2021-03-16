@@ -9,9 +9,14 @@
   text-align: center;
 }
 
-.link {
+.aTag {
+  height: 50px;
+  width: 100%;
   padding-top: 30px;
   padding-bottom: 20px;
+}
+
+.link {
   margin-left: 12px;
   margin-right: 12px;
   letter-spacing: 1px;
@@ -21,6 +26,9 @@
   font-weight: bold;
   position: relative;
   text-transform: uppercase;
+  height: 50px;
+  display: flex;
+  align-items: center;
 }
 
 .active::after {
@@ -66,6 +74,7 @@
     margin: 0;
     text-align: right;
     width: 80%;
+    height: 60px;
     font-size: 12px;
   }
 }
