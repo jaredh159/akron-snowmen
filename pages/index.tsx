@@ -13,7 +13,7 @@ const Home: React.FC = () => {
         bgColor="rgb(72,71,169)"
         headerText="What We Do"
         bgImage="./sunset.jpg"
-        id="ImageBlock"
+        id="about-us"
       >
         <h4>So we get rid of your snow. Simple as that.</h4>
         Okay, not really; it takes hard work as well as dedicaton to our field and

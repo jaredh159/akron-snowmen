@@ -5,7 +5,7 @@ import BodyText from './BodyText';
 
 const HeroBlock: React.FC = () => {
   return (
-    <div className={styles.entire} id="heroBlock">
+    <div className={styles.entire} id="welcome">
       <img src="./plow.jpg" className={styles.image} alt="plow" />
 
       <div className={styles.overlay}>
@@ -13,7 +13,7 @@ const HeroBlock: React.FC = () => {
 
         <BodyText>
           {' '}
-          Commercial snow plowing, shoveling, and salting, based here in Akron, Ohio.
+          Commercial snow plowing, shoveling, and salting, based in Wadsworth, Ohio.
         </BodyText>
 
         <div className={styles.button}>

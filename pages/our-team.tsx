@@ -19,7 +19,7 @@ const Home: React.FC = () => {
       </ImageAndTextBlock>
 
       <ImageAndTextBlock
-        bgColor="rgb(72,71,169)"
+        bgColor="rgb(68,67,160)"
         headerText="Kristi Ensminger"
         bgImage="./josue1.jpg"
         buttonShown={false}
@@ -29,7 +29,7 @@ const Home: React.FC = () => {
       </ImageAndTextBlock>
 
       <ImageAndTextBlock
-        bgColor="rgb(72,71,169)"
+        bgColor="rgb(65,64,152)"
         headerText="Josué Rodriguez"
         bgImage="./josue2.jpg"
         buttonShown={false}

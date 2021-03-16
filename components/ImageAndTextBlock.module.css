@@ -48,6 +48,10 @@
     order: 2;
   }
 
+  .right .textBlock {
+    text-align: right;
+  }
+
   .imageWrap {
     height: 350px;
     width: 33%;

@@ -3,43 +3,43 @@ import styles from './Nav.module.css';
 import cx from 'classnames';
 
 const Nav: React.FC = () => {
-  const [whoseActive, setWhoseActive] = useState<
-    'welcome' | 'about' | 'services' | 'contact'
-  >('welcome');
+  const [active, setActive] = useState<'welcome' | 'about' | 'services' | 'contact'>(
+    'welcome',
+  );
 
   return (
     <ul className={styles.outerNav}>
       <li
-        className={cx(styles.link, whoseActive === 'welcome' ? styles.active : '')}
-        onClick={() => setWhoseActive('welcome')}
+        className={cx(styles.link, active === 'welcome' ? styles.active : '')}
+        onClick={() => setActive('welcome')}
       >
-        <a href="#heroBlock" className={styles.aTag}>
+        <a href="#welcome" className={styles.aTag}>
           Welcome
         </a>
       </li>
 
       <li
-        className={cx(styles.link, whoseActive === 'about' ? styles.active : '')}
-        onClick={() => setWhoseActive('about')}
+        className={cx(styles.link, active === 'about' ? styles.active : '')}
+        onClick={() => setActive('about')}
       >
-        <a href="#ImageBlock" className={styles.aTag}>
+        <a href="#about-us" className={styles.aTag}>
           About us
         </a>
       </li>
       <li
-        className={cx(styles.link, whoseActive === 'services' ? styles.active : '')}
-        onClick={() => setWhoseActive('services')}
+        className={cx(styles.link, active === 'services' ? styles.active : '')}
+        onClick={() => setActive('services')}
       >
-        <a href="#pinkBlock" className={styles.aTag}>
+        <a href="#our-services" className={styles.aTag}>
           Our Services
         </a>
       </li>
 
       <li
-        className={cx(styles.link, whoseActive === 'contact' ? styles.active : '')}
-        onClick={() => setWhoseActive('contact')}
+        className={cx(styles.link, active === 'contact' ? styles.active : '')}
+        onClick={() => setActive('contact')}
       >
-        <a href="#contactBlock" className={styles.aTag}>
+        <a href="#contact-us" className={styles.aTag}>
           Contact Us
         </a>
       </li>

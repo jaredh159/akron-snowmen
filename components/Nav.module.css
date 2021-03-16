@@ -2,14 +2,17 @@
   list-style: none;
   background-color: var(--dark-purple);
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
   margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 .aTag {
   height: 50px;
   width: 100%;
-  padding-top: 20px;
+  padding-top: 30px;
   padding-bottom: 20px;
 }
 
@@ -17,8 +20,8 @@
   margin-left: 12px;
   margin-right: 12px;
   letter-spacing: 1px;
-  font-family: Arial;
-  font-size: 12px;
+  font-family: 'Arial';
+  font-size: 9px;
   color: rgba(255, 255, 255, 0.5);
   font-weight: bold;
   position: relative;
@@ -48,6 +51,17 @@
     align-items: center;
     padding: 0;
     margin: 0;
+    justify-content: center;
+  }
+
+  .link::after {
+    content: '';
+    display: block;
+    background-color: rgba(255, 255, 255, 0.05);
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    bottom: 0;
   }
 
   .active::after {
@@ -61,5 +75,6 @@
     text-align: right;
     width: 80%;
     height: 60px;
+    font-size: 12px;
   }
 }
