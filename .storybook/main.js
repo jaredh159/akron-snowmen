@@ -1,17 +1,17 @@
 const path = require(`path`);
 
 module.exports = {
-  stories: ["../stories/**/*.stories.tsx"],
+  stories: ['../stories/**/*.stories.tsx'],
   addons: [
-    "@storybook/addon-links",
+    '@storybook/addon-links',
     {
-      name: "@storybook/addon-essentials",
+      name: '@storybook/addon-essentials',
       options: {
         docs: false,
       },
     },
   ],
-  presets: [path.resolve(__dirname, "./next-preset.js")],
+  presets: [path.resolve(__dirname, './next-preset.js')],
   typescript: {
     check: false,
     reactDocgen: false,

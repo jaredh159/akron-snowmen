@@ -30,7 +30,7 @@
 }
 
 .active::after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   background: var(--pink);

@@ -1,12 +1,12 @@
-import React from "react";
-import { Meta } from "@storybook/react";
-import Form from "../components/Form";
+import React from 'react';
+import { Meta } from '@storybook/react';
+import Form from '../components/Form';
 
 const storiesMeta: Meta = {
-  title: "Form",
+  title: 'Form',
   component: Form,
   parameters: {
-    layout: "fullscreen",
+    layout: 'fullscreen',
   },
 };
 

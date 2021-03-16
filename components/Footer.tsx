@@ -1,6 +1,6 @@
-import React from "react";
-import cx from "classnames";
-import styles from "./styles/Footer.module.css";
+import React from 'react';
+import cx from 'classnames';
+import styles from './styles/Footer.module.css';
 
 const Footer: React.FC = () => {
   return (
@@ -16,10 +16,7 @@ const Footer: React.FC = () => {
         </li>
         <li className={cx(styles.third, styles.items)}>
           Website:
-          <a
-            className={styles.link2}
-            href="https://homework.howtocomputer.link"
-          >
+          <a className={styles.link2} href="https://homework.howtocomputer.link">
             HTC
           </a>
         </li>

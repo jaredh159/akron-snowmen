@@ -1,7 +1,7 @@
-import React from "react";
-import Form from "./Form";
-import styles from "./styles/ContactBlock.module.css";
-import BodyText from "./BodyText";
+import React from 'react';
+import Form from './Form';
+import styles from './styles/ContactBlock.module.css';
+import BodyText from './BodyText';
 
 const ContactBlock: React.FC = () => {
   return (
@@ -9,8 +9,8 @@ const ContactBlock: React.FC = () => {
       <h3 className={styles.mainHeader}>Get in touch</h3>
 
       <BodyText className={styles.mainText}>
-        Want to talk about <i>your</i> snow and ice removal? Submit the form
-        below for a free bid.
+        Want to talk about <i>your</i> snow and ice removal? Submit the form below for a
+        free bid.
       </BodyText>
       <div className={styles.main}>
         <div className={styles.formWrapper}>
