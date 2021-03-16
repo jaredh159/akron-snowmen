@@ -10,7 +10,7 @@ const Home: React.FC = () => {
       <ImageAndTextBlock
         bgColor="rgb(72,71,169)"
         headerText="Rod Costa"
-        bgImage="./josue2.jpg"
+        bgImage="./rod.jpg"
         buttonShown={false}
       >
         Rod hates giving orders, even though he is the boss of Akron Snowmen. He has been
@@ -21,7 +21,7 @@ const Home: React.FC = () => {
       <ImageAndTextBlock
         bgColor="rgb(68,67,160)"
         headerText="Kristi Ensminger"
-        bgImage="./josue1.jpg"
+        bgImage="./kristi.jpg"
         buttonShown={false}
         right={true}
       >
