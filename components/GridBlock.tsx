@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './GridBlock.module.css';
+import styles from './styles/GridBlock.module.css';
 import cx from 'classnames';
 import BodyText from './BodyText';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './HeroBlock.module.css';
+import styles from './styles/HeroBlock.module.css';
 import BodyText from './BodyText';
 
 const TeamHero: React.FC = () => {
@@ -11,7 +11,6 @@ const TeamHero: React.FC = () => {
         <h1>Our Team</h1>
 
         <BodyText>
-          {' '}
           Our team of shovelers and salters is out during every storm keeping your
           property clean and snow-free.
         </BodyText>

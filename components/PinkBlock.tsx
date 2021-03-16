@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './PinkBlock.module.css';
+import styles from './styles/PinkBlock.module.css';
 import PinkGrid from './PinkGrid';
 import Button from './Button';
 import BodyText from './BodyText';

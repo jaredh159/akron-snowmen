@@ -21,13 +21,14 @@
   width: 118px;
 }
 
-.virtuoso {
-  border-bottom: 1px dotted rgba(255, 255, 255, 0.3);
-}
-
-.htc {
+.link2 {
   border-bottom: 1px dotted rgba(255, 255, 255, 0.3);
   width: 20px;
+}
+
+.link1,
+.link2 {
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.3);
 }
 
 @media (min-width: 640px) {
@@ -45,11 +46,8 @@
   }
 
   .first {
-    padding-left: 0.2rem;
     border-right: 1px solid rgba(255, 255, 255, 0.2);
-    padding-right: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px 20px 0.2rem 5px;
   }
 
   .second {
@@ -58,10 +56,8 @@
   }
 
   .third {
-    padding-left: 30px;
-    padding-top: 5px;
-    padding-bottom: 5px;
     border-left: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 5px inherit 5px 30px;
   }
 }
 

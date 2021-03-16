@@ -1,6 +1,6 @@
 import React from 'react';
 import Form from './Form';
-import styles from './ContactBlock.module.css';
+import styles from './styles/ContactBlock.module.css';
 import BodyText from './BodyText';
 
 const ContactBlock: React.FC = () => {
@@ -30,7 +30,7 @@ const ContactBlock: React.FC = () => {
           </div>
           <div>
             <h1>Email</h1>
-            <a href="mailto:virtuoso.rod@gmail.com" className={styles.rodEmail}>
+            <a href="mailto:virtuoso.rod@gmail.com" className={styles.email}>
               virtuoso.rod@gmail.com
             </a>
           </div>

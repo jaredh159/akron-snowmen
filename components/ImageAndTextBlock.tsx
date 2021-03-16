@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './ImageAndTextBlock.module.css';
+import styles from './styles/ImageAndTextBlock.module.css';
 import Button from './Button';
 import BodyText from './BodyText';
 import cx from 'classnames';

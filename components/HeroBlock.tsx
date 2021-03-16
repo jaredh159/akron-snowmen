@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './HeroBlock.module.css';
+import styles from './styles/HeroBlock.module.css';
 import Button from './Button';
 import BodyText from './BodyText';
 
@@ -12,7 +12,6 @@ const HeroBlock: React.FC = () => {
         <h1>Akron Snowmen</h1>
 
         <BodyText>
-          {' '}
           Commercial snow plowing, shoveling, and salting, based in Wadsworth, Ohio.
         </BodyText>
 

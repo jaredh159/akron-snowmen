@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from './Nav.module.css';
+import styles from './styles/Nav.module.css';
 import cx from 'classnames';
 
 const Nav: React.FC = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './BodyText.module.css';
+import styles from './styles/BodyText.module.css';
 import cx from 'classnames';
 
 type Props = {
