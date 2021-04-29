@@ -13,7 +13,7 @@ const PinkGrid: React.FC = () => {
       />
       <GridBlock
         title="Ice Removal"
-        paragraph="We salt parking lots, driveways, roads and more, to keep you safe from slipping on the slik ice. "
+        paragraph="We salt parking lots, driveways, roads and more, to keep you safe from slipping on the slick ice. "
         className={styles.block}
         icon="fas fa-icicles"
       />
