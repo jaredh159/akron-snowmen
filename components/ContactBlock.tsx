@@ -6,7 +6,7 @@ import BodyText from './BodyText';
 const ContactBlock: React.FC = () => {
   return (
     <div className={styles.entire} id="contact-us">
-      <h3 className={styles.mainHeader}>Get in touch</h3>
+      <h2 className={styles.mainHeader}>Get in touch</h2>
 
       <BodyText className={styles.mainText}>
         Want to talk about <i>your</i> snow and ice removal? Submit the form below for a
