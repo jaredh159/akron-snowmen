@@ -7,7 +7,7 @@ type Props = {
 };
 
 const BodyText: React.FC<Props> = ({ className, children }) => {
-  return <div className={cx(styles.main, className)}>{children}</div>;
+  return <p className={cx(styles.main, className)}>{children}</p>;
 };
 
 export default BodyText;

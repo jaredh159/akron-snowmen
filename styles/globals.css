@@ -24,6 +24,11 @@ a {
   box-sizing: border-box;
 }
 
+.antialiased {
+  -moz-osx-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+
 .staff > div {
   min-height: 270px;
 }

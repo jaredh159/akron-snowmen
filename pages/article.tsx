@@ -7,7 +7,11 @@ import Layout from '../components/Layout';
 const Article: React.FC = () => {
   return (
     <Layout>
-      <ArticlePage color="rgba(0, 0, 0, 0.2)" image="./josue1.jpg" headline="Our Team">
+      <ArticlePage
+        color="rgba(0, 0, 0, 0.3)"
+        image="./snowy-trees.jpg"
+        headline="Our Team"
+      >
         <BodyText>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque nisi autem sunt
           repudiandae harum. Reprehenderit tenetur laudantium, vitae temporibus debitis
@@ -40,7 +44,7 @@ const Article: React.FC = () => {
           repellat ducimus soluta! Cumque debitis quam eveniet vero minima omnis?
         </BodyText>
 
-        <ArticleImage image="./josue1.jpg" direction="left" />
+        <ArticleImage image="./plow2.jpg" direction="left" />
 
         <BodyText>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque nisi autem sunt
