@@ -16,7 +16,9 @@ const HeroBlock: React.FC = () => {
         </BodyText>
 
         <div className={styles.button}>
-          <Button className={styles.heroBlockButton}>Learn More</Button>
+          <Button href="#about-us" className={styles.heroBlockButton}>
+            Learn More
+          </Button>
         </div>
       </div>
     </div>

@@ -11,6 +11,8 @@
   cursor: pointer;
   transition-duration: 200ms;
   text-transform: uppercase;
+  display: inline-block;
+  max-width: 450px;
 }
 
 .btn:hover {

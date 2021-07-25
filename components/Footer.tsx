@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
           © {new Date().getFullYear()} — All rights reserved.
         </li>
         <li className={cx(styles.second, styles.items)}>
-          <a className={styles.link1} href="https://virtuosolanscapes.com">
+          <a className={styles.link1} href="https://www.virtuosolandscapes.com">
             Virtuoso Landscaping
           </a>
         </li>

@@ -12,6 +12,7 @@ type Props = {
   buttonShown?: boolean;
   id?: string;
   imgId?: string;
+  href?: string;
 };
 
 const ImageAndTextBlock: React.FC<Props> = ({
@@ -23,6 +24,7 @@ const ImageAndTextBlock: React.FC<Props> = ({
   right = false,
   children,
   imgId,
+  href,
 }) => {
   return (
     <div className={cx(styles.main, right && styles.right)} id={id}>
@@ -33,7 +35,9 @@ const ImageAndTextBlock: React.FC<Props> = ({
         <h1 className={styles.header}>{headerText}</h1>
         <BodyText>{children}</BodyText>
         {buttonShown ? (
-          <Button className={styles.imageAndTextBlockButton}>Learn More</Button>
+          <Button href={href} className={styles.imageAndTextBlockButton}>
+            Learn More
+          </Button>
         ) : (
           ``
         )}

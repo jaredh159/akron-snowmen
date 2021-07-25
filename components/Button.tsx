@@ -5,13 +5,18 @@ import cx from 'classnames';
 type Props = {
   className?: string;
   width?: string;
+  href?: string;
 };
 
-const Button: React.FC<Props> = ({ className, width, children }) => {
+const Button: React.FC<Props> = ({ href, className, width, children }) => {
   return (
-    <button className={cx(styles.btn, className)} style={{ width: width }}>
+    <a
+      {...(href ? { href } : {})}
+      className={cx(`Button`, styles.btn, className)}
+      style={{ width: width }}
+    >
       {children}{' '}
-    </button>
+    </a>
   );
 };
 

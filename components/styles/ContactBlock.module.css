@@ -3,11 +3,12 @@
   display: flex;
   flex-direction: column;
   font-family: Arial, sans-serif;
-  padding: 0 35px;
+  padding: 35px;
 }
 
 .formWrapper {
   flex-grow: 1;
+  max-width: 900px;
 }
 
 .info h1 {
@@ -38,7 +39,7 @@
 
 .mainHeader {
   color: white;
-  padding-top: 3rem;
+  padding-top: 1rem;
 }
 
 .mainText {

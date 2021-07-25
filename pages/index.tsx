@@ -12,7 +12,7 @@ const Home: React.FC = () => {
       <ImageAndTextBlock
         bgColor="rgb(72,71,169)"
         headerText="What We Do"
-        bgImage="./sunset.jpg"
+        bgImage="./snow-night.jpg"
         id="about-us"
       >
         <h4>So we get rid of your snow. Simple as that.</h4>
@@ -22,7 +22,7 @@ const Home: React.FC = () => {
       <ImageAndTextBlock
         bgColor="rgb(68,67,160)"
         headerText="Our Services"
-        bgImage="./traffic.jpg"
+        bgImage="./plow2.jpg"
       >
         From salting your walkways by hand to plowing your commercial parking lot, Akron
         Snowmen does it all! Contact us today for a free bid, and we'll get rid of all
@@ -31,7 +31,8 @@ const Home: React.FC = () => {
       <ImageAndTextBlock
         bgColor="rgb(65,64,152)"
         headerText="Our Team"
-        bgImage="./clouds.jpg"
+        bgImage="./team.jpg"
+        href="/our-team"
       >
         Akron Snowmen wouldn't be where it is today if it weren't for its dedicated and
         hard-working crew. They wake up long before dawn every storm to remove snow from

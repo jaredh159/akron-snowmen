@@ -15,7 +15,9 @@ const PinkBlock: React.FC = () => {
       </BodyText>
       <PinkGrid />
       <div className={styles.buttonWrapper}>
-        <Button width="200px">Contact Us</Button>
+        <Button href="#contact-us" width="200px">
+          Contact Us
+        </Button>
       </div>
     </div>
   );

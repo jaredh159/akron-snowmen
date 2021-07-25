@@ -2,7 +2,7 @@
   font-family: Arial;
   color: white;
   display: flex;
-  padding: 4rem 2rem 2rem 2rem;
+  padding: 4rem 2rem 4rem 2rem;
   flex-direction: column;
 }
 
@@ -46,6 +46,10 @@
     text-align: right;
   }
 
+  .right a {
+    margin-left: auto;
+  }
+
   .imageWrap {
     width: 33%;
   }
@@ -54,7 +58,7 @@
 .imageAndTextBlockButton {
   width: 200px;
   margin-top: 3em;
-  margin-bottom: 2em;
+  /* margin-bottom: 2em; */
 }
 
 @media (max-width: 767px) {
