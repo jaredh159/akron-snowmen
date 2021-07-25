@@ -5,7 +5,7 @@ import styles from './styles/Form.module.css';
 
 const Form: React.FC = () => {
   return (
-    <form className={styles.form}>
+    <form className={styles.form} data-netlify="true">
       <div className={cx(styles.inputs, styles.formDiv)}>
         <div className={cx(styles.formDiv, styles.inputDivs)}>
           <label>Name</label>
