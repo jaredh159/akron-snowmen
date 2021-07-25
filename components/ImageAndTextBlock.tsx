@@ -11,6 +11,7 @@ type Props = {
   right?: boolean;
   buttonShown?: boolean;
   id?: string;
+  imgId?: string;
 };
 
 const ImageAndTextBlock: React.FC<Props> = ({
@@ -21,11 +22,12 @@ const ImageAndTextBlock: React.FC<Props> = ({
   buttonShown = true,
   right = false,
   children,
+  imgId,
 }) => {
   return (
     <div className={cx(styles.main, right && styles.right)} id={id}>
       <div className={styles.imageWrap}>
-        <img src={bgImage} alt="@TODO" />
+        <img src={bgImage} alt="@TODO" id={imgId} />
       </div>
       <div className={styles.textBlock} style={{ backgroundColor: bgColor }}>
         <h1 className={styles.header}>{headerText}</h1>

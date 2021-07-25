@@ -14,15 +14,10 @@
   width: 100%;
   overflow: hidden;
   position: relative;
-  height: 320px;
 }
 
 .imageWrap > img {
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
   object-fit: cover;
   width: 100%;
   height: 100%;
@@ -39,8 +34,7 @@
   }
 
   .textBlock {
-    padding: 70px;
-    padding-bottom: 0;
+    padding: 3em 4em;
     width: 67%;
   }
 
@@ -53,11 +47,7 @@
   }
 
   .imageWrap {
-    height: 350px;
     width: 33%;
-  }
-  .imageWrap > img {
-    height: 350px;
   }
 }
 
@@ -67,9 +57,13 @@
   margin-bottom: 2em;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 767px) {
   .imageAndTextBlockButton {
     width: 100%;
+  }
+
+  .imageWrap {
+    height: 350px;
   }
 }
 
