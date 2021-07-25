@@ -1,29 +1,32 @@
 import React from 'react';
-import Button from './Button';
 import cx from 'classnames';
 import styles from './styles/Form.module.css';
+import btnStyles from './styles/Button.module.css';
 
 const Form: React.FC = () => {
   return (
-    <form className={styles.form} data-netlify="true">
+    <form name="contact" className={styles.form} method="POST" data-netlify="true">
+      <input type="hidden" name="form-name" value="contact" />
       <div className={cx(styles.inputs, styles.formDiv)}>
         <div className={cx(styles.formDiv, styles.inputDivs)}>
           <label>Name</label>
-          <input type="text" />
+          <input name="name" type="text" />
         </div>
 
         <div className={cx(styles.inputDivs, styles.email, styles.formDiv)}>
           <label>Email</label>
-          <input type="email" />
+          <input name="email" type="email" />
         </div>
       </div>
 
       <div className={styles.formDiv}>
         <label>Message</label>
-        <textarea rows={10}></textarea>
+        <textarea name="message" rows={10}></textarea>
       </div>
 
-      <Button className={styles.formButton}>Send Message</Button>
+      <button type="submit" className={cx(styles.formButton, btnStyles.btn)}>
+        Send Message
+      </button>
     </form>
   );
 };
