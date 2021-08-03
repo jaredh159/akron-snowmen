@@ -11,8 +11,9 @@ const TeamHero: React.FC = () => {
         <h1>Our Team</h1>
 
         <BodyText>
-          Our team of shovelers and salters is out during every storm keeping your
-          property clean and snow-free.
+          Akron Snowmen wouldn't be where it is today if it weren't for our dedicated and
+          herd-working crew. Our team is out before, during, and after the storm to ensure
+          your property remains clear and safe.
         </BodyText>
       </div>
     </div>

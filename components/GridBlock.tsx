@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './styles/GridBlock.module.css';
 import cx from 'classnames';
-import BodyText from './BodyText';
 
 type Props = {
   title: string;
@@ -10,7 +9,7 @@ type Props = {
   icon: string;
 };
 
-const GridBlock: React.FC<Props> = ({ title, paragraph, className, icon }) => {
+const GridBlock: React.FC<Props> = ({ title, className, icon }) => {
   return (
     <div className={cx(styles.entireBlock, className)}>
       <div className={styles.leftChunk}>
@@ -20,7 +19,6 @@ const GridBlock: React.FC<Props> = ({ title, paragraph, className, icon }) => {
       </div>
       <div className={styles.rightChunk}>
         <h2>{title}</h2>
-        <BodyText>{paragraph}</BodyText>
       </div>
     </div>
   );

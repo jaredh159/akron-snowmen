@@ -4,6 +4,7 @@
   background-color: var(--light-pink);
   /* padding: 0px 15px; */
   padding: 1.25em 1.75em 2em 2em;
+  align-items: center;
 }
 
 .rightChunk {
@@ -11,8 +12,9 @@
 }
 
 .rightChunk h2 {
-  margin-top: 0.25em;
-  font-size: 1.2em;
+  margin: 0;
+  padding-top: 12px;
+  font-size: 1.4em;
   font-weight: normal;
   color: rgba(255, 255, 255, 0.8);
 }

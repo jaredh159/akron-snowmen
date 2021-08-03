@@ -9,24 +9,17 @@ const Home: React.FC = () => {
   return (
     <Layout>
       <HeroBlock />
-      <ImageAndTextBlock
-        bgColor="rgb(72,71,169)"
-        headerText="What We Do"
-        bgImage="./snow-night.jpg"
-        id="about-us"
-      >
-        <h4>So we get rid of your snow. Simple as that.</h4>
-        Okay, not really; it takes hard work as well as dedicaton to our field and
-        customers to accomplish what Akron Snowmen does for all its clients.
-      </ImageAndTextBlock>
+
       <ImageAndTextBlock
         bgColor="rgb(68,67,160)"
         headerText="Our Services"
         bgImage="./plow2.jpg"
+        href="#our-services"
       >
         From salting your walkways by hand to plowing your commercial parking lot, Akron
-        Snowmen does it all! Contact us today for a free bid, and we'll get rid of all
-        that cold white stuff for you.
+        Snowmen does it all. Our snow removal prices are extremely affordable and we have
+        multiple billing arrangements and terms to meet your company's needs. Contact us
+        today for a free quote.
       </ImageAndTextBlock>
       <ImageAndTextBlock
         bgColor="rgb(65,64,152)"
@@ -34,10 +27,20 @@ const Home: React.FC = () => {
         bgImage="./team.jpg"
         href="/our-team"
       >
-        Akron Snowmen wouldn't be where it is today if it weren't for its dedicated and
-        hard-working crew. They wake up long before dawn every storm to remove snow from
-        all our properties. Just ask our boss, Rod Costa. Or our real boss, Kristi
-        Ensminger.
+        Our ice management and snow removal team has years of proffessional experience
+        serving the Greater Akron area. When you hire Snowmen, we want you to feel assured
+        that your property is in good hands during a snow or ice event. Commercial snow
+        removal is our full-time business and we take it very seriously.
+      </ImageAndTextBlock>
+      <ImageAndTextBlock
+        bgColor="rgb(72,71,169)"
+        headerText="Our Clients"
+        bgImage="./snow-night.jpg"
+        id="about-us"
+      >
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi ut aliquam,
+        corporis facilis possimus non. Esse eius iste nulla optio deleniti aperiam,
+        deserunt nemo voluptatem tenetur, provident, quisquam fuga odio.
       </ImageAndTextBlock>
       <PinkBlock />
       <ContactBlock />
