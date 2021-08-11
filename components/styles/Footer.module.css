@@ -2,6 +2,7 @@
   height: 175px;
   background-color: var(--footer-purple);
   width: 100%;
+  padding-left: 1em;
 }
 
 .links {

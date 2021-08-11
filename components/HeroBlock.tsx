@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './styles/HeroBlock.module.css';
 import Button from './Button';
 import BodyText from './BodyText';
+// import Virtuoso from './Virtuoso';
 
 const HeroBlock: React.FC = () => {
   return (
@@ -25,6 +26,7 @@ const HeroBlock: React.FC = () => {
           </Button>
         </div>
       </div>
+      {/* <Virtuoso className="hidden lg:block absolute top-5 right-5 w-[450px] rounded-xl px-6 py-3" /> */}
     </div>
   );
 };

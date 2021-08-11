@@ -1,4 +1,9 @@
 .text {
   padding: 2rem 3rem;
-  background-color: rgba(73, 51, 130, 0.8);
+  /* background-color: rgba(73, 51, 130, 0.8); */
+  background: white;
+}
+
+.text > * {
+  color: rgb(41, 41, 41) !important;
 }

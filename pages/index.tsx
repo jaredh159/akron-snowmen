@@ -4,16 +4,13 @@ import ContactBlock from '../components/ContactBlock';
 import ImageAndTextBlock from '../components/ImageAndTextBlock';
 import PinkBlock from '../components/PinkBlock';
 import Layout from '../components/Layout';
+// import Virtuoso from '../components/Virtuoso';
 
 const Home: React.FC = () => {
   return (
     <Layout>
       <HeroBlock />
-      <div className="bg-[#866142] m-2">
-        <p>
-          Interested in our landscaping services when the snow stops falling? Click here.
-        </p>
-      </div>
+      {/* <Virtuoso className="lg:hidden" /> */}
       <ImageAndTextBlock
         bgColor="rgb(68,67,160)"
         headerText="Our Services"
@@ -28,7 +25,7 @@ const Home: React.FC = () => {
       <ImageAndTextBlock
         bgColor="rgb(65,64,152)"
         headerText="Our Team"
-        bgImage="./plow-crew.jpg"
+        bgImage="./plow-crew-med.jpg"
         href="/our-team"
       >
         Our ice management and snow removal team has years of professional experience
@@ -39,8 +36,9 @@ const Home: React.FC = () => {
       <ImageAndTextBlock
         bgColor="rgb(72,71,169)"
         headerText="Our Clients"
-        bgImage="./snow-night.jpg"
-        id="about-us"
+        bgImage="./logo-cloud-2.png"
+        id="our-clients"
+        href="/clients"
       >
         Akron Snowmen is best represented by our long-standing relationships with our
         clients. We recognize the level of trust and quality of workmanship required to

@@ -1,4 +1,5 @@
 import React from 'react';
+import cx from 'classnames';
 import styles from './styles/ArticleHeadline.module.css';
 
 type Props = {
@@ -9,7 +10,7 @@ type Props = {
 const ArticleHeadline: React.FC<Props> = ({ image, color, children }) => {
   return (
     <div
-      className={styles.main}
+      className={cx(styles.main, `bg-center`)}
       style={{ backgroundImage: `linear-gradient(${color}, ${color}), url(${image})` }}
     >
       {children}

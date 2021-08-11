@@ -11,7 +11,7 @@ type Props = {
 
 const ArticlePage: React.FC<Props> = ({ image, color, headline, children }) => {
   return (
-    <div>
+    <div className="ArticlePage">
       <ArticleHeadline image={image} color={color}>
         {headline}
       </ArticleHeadline>

@@ -10,6 +10,7 @@
   --dark-purple: rgb(49, 36, 80);
   --pink: rgb(183, 78, 145);
   --light-pink: rgb(187, 90, 155);
+  --orange: rgb(173, 106, 61);
 }
 
 html,
@@ -22,6 +23,11 @@ body {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
 }
 
 h1,
@@ -44,6 +50,35 @@ a {
 
 .staff > div {
   min-height: 270px;
+}
+
+#our-clients img {
+  object-fit: contain;
+}
+
+.ArticlePage p {
+  margin-bottom: 1.5em;
+  font-size: 1.1em;
+  @apply antialiased;
+  color: black !important;
+}
+
+.ArticlePage li {
+  color: var(--purple);
+}
+
+.ArticlePage li > span {
+  @apply border-b border-dotted;
+}
+
+.OurServices {
+  display: none !important;
+}
+
+@media (min-width: 768px) {
+  .OurServices {
+    display: flex !important;
+  }
 }
 
 @media (min-width: 1280px) {

@@ -3,13 +3,15 @@ import styles from './styles/Nav.module.css';
 import cx from 'classnames';
 
 const Nav: React.FC = () => {
-  const [active, setActive] = useState<'welcome' | 'team' | 'services' | 'contact'>(
-    'welcome',
-  );
+  const [active, setActive] = useState<
+    'welcome' | 'team' | 'services' | 'contact' | 'clients'
+  >('welcome');
 
   useEffect(() => {
     if (window.location.href.includes(`our-team`)) {
       setActive(`team`);
+    } else if (window.location.href.includes(`clients`)) {
+      setActive(`clients`);
     } else {
       switch (window.location.hash) {
         case '#our-services':
@@ -44,12 +46,26 @@ const Nav: React.FC = () => {
           Our Team
         </a>
       </li>
+
       <li
-        className={cx(styles.link, active === 'services' ? styles.active : '')}
+        className={cx(
+          `OurServices`,
+          styles.link,
+          active === 'services' ? styles.active : '',
+        )}
         onClick={() => setActive('services')}
       >
         <a href="/#our-services" className={styles.aTag}>
           Our Services
+        </a>
+      </li>
+
+      <li
+        className={cx(styles.link, active === 'clients' ? styles.active : '')}
+        onClick={() => setActive('clients')}
+      >
+        <a href="/clients" className={styles.aTag}>
+          Our Clients
         </a>
       </li>
 

@@ -4,11 +4,11 @@
   justify-content: center;
   font-size: 2rem;
   font-weight: 600;
-  /* v--- can be changed depending on image, not sure what default should be...*/
-  color: var(--dark-purple);
   color: white;
   letter-spacing: 0.1em;
+  background-size: contain;
   background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
   font-family: 'Arial', sans-serif;
 }
