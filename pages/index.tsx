@@ -9,7 +9,11 @@ const Home: React.FC = () => {
   return (
     <Layout>
       <HeroBlock />
-
+      <div className="bg-[#866142] m-2">
+        <p>
+          Interested in our landscaping services when the snow stops falling? Click here.
+        </p>
+      </div>
       <ImageAndTextBlock
         bgColor="rgb(68,67,160)"
         headerText="Our Services"

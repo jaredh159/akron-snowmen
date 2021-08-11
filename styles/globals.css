@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --light-purple: rgb(94, 66, 166);
   --med-purple: rgb(73, 51, 130);
@@ -15,6 +19,20 @@ body {
   scroll-behavior: smooth;
 }
 
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -22,11 +40,6 @@ a {
 
 * {
   box-sizing: border-box;
-}
-
-.antialiased {
-  -moz-osx-font-smoothing: antialiased;
-  -webkit-font-smoothing: antialiased;
 }
 
 .staff > div {
