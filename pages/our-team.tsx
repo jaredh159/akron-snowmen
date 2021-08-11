@@ -50,33 +50,32 @@ const Home: React.FC = () => {
         <h2 className={styles.subhead}>Plow Crew</h2>
         <ImageAndTextBlock
           bgColor="rgb(72,71,169)"
-          headerText="Plow Crew"
-          bgImage="./plow.jpg"
+          headerText=""
+          bgImage="./plow-crew.jpg"
           right
           buttonShown={false}
           imgId={styles.rodImg}
         >
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab culpa unde, quae ea
-          corrupti voluptatum ipsam ad excepturi modi quas debitis voluptates quia vitae
-          necessitatibus eveniet explicabo odit magni sint! Lorem ipsum, dolor sit amet
-          consectetur adipisicing elit. Sapiente praesentium rem asperiores dolore,
-          laboriosam quis. Eum, at nihil vel cumque quo, debitis nemo quisquam, accusamus
-          unde laboriosam obcaecati minus deserunt?
+          Our experienced plow truck drivers and machine operators work tirelessly for the
+          duration of each storm to ensure employees and customers remain safe while on
+          your property. We take our job seriously, and have taken time to study and train
+          on best snow removal practices and techniques. We also record and log our
+          services in real-time on each property, so there’s never a question about the
+          work we perform.
         </ImageAndTextBlock>
-        <h2 className={styles.subhead}>Shovel Crew</h2>
+        <h2 className={styles.subhead}>Walkway Crew</h2>
         <ImageAndTextBlock
           bgColor="rgb(72,71,169)"
-          headerText="Shovel Crew"
+          headerText=""
           bgImage="./team.jpg"
           buttonShown={false}
           imgId={styles.rodImg}
         >
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab culpa unde, quae ea
-          corrupti voluptatum ipsam ad excepturi modi quas debitis voluptates quia vitae
-          necessitatibus eveniet explicabo odit magni sint! Lorem ipsum, dolor sit amet
-          consectetur adipisicing elit. Sapiente praesentium rem asperiores dolore,
-          laboriosam quis. Eum, at nihil vel cumque quo, debitis nemo quisquam, accusamus
-          unde laboriosam obcaecati minus deserunt?
+          Regardless of the weather conditions and duration of the storm, we have a
+          committed crew of shovelers and snow blower operators working “in the thick of
+          it” to keep walking surfaces free of ice and snow. Our team is ready at a
+          moment’s notice and can handle any depth of walkway accumulation, which they
+          often ensure is long-gone well before your alarm goes off.
         </ImageAndTextBlock>
       </div>
     </Layout>

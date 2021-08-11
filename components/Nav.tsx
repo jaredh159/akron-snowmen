@@ -1,11 +1,29 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import styles from './styles/Nav.module.css';
 import cx from 'classnames';
 
 const Nav: React.FC = () => {
-  const [active, setActive] = useState<'welcome' | 'about' | 'services' | 'contact'>(
+  const [active, setActive] = useState<'welcome' | 'team' | 'services' | 'contact'>(
     'welcome',
   );
+
+  useEffect(() => {
+    if (window.location.href.includes(`our-team`)) {
+      setActive(`team`);
+    } else {
+      switch (window.location.hash) {
+        case '#our-services':
+          setActive(`services`);
+          break;
+        case '#welcome':
+          setActive(`welcome`);
+          break;
+        case '#contact-us':
+          setActive(`contact`);
+          break;
+      }
+    }
+  }, []);
 
   return (
     <ul className={styles.outerNav}>
@@ -19,11 +37,11 @@ const Nav: React.FC = () => {
       </li>
 
       <li
-        className={cx(styles.link, active === 'about' ? styles.active : '')}
-        onClick={() => setActive('about')}
+        className={cx(styles.link, active === 'team' ? styles.active : '')}
+        onClick={() => setActive('team')}
       >
-        <a href="/#about-us" className={styles.aTag}>
-          About us
+        <a href="/our-team" className={styles.aTag}>
+          Our Team
         </a>
       </li>
       <li

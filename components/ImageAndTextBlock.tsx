@@ -32,7 +32,7 @@ const ImageAndTextBlock: React.FC<Props> = ({
         <img src={bgImage} alt="@TODO" id={imgId} />
       </div>
       <div className={styles.textBlock} style={{ backgroundColor: bgColor }}>
-        <h1 className={styles.header}>{headerText}</h1>
+        {headerText && <h1 className={styles.header}>{headerText}</h1>}
         <BodyText>{children}</BodyText>
         {buttonShown ? (
           <Button href={href} className={styles.imageAndTextBlockButton}>

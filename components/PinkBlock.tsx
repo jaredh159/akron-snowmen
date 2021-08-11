@@ -9,10 +9,10 @@ const PinkBlock: React.FC = () => {
     <div className={styles.pinkBlock} id="our-services">
       <h2 className={styles.h1}>Our Services</h2>
       <BodyText className={styles.p}>
-        Akron Snowmen plows industrial, commercial, and corporate properties in the
+        Akron Snowmen services industrial, commercial, and corporate properties in the
         Greater Akron area. We have the tools, the skills, and the dedication to plow,
-        shovel, and salt your property quickly, 24 hours a day/7 days a week. Our goal is
-        to keep your properties and your customers sate. We work directly with salt
+        shovel, and salt your property quickly, 24 hours a day and 7 days a week. Our goal
+        is to keep your property and your customers safe. We work directly with salt
         suppliers and mines and can guarantee supply.
       </BodyText>
       <PinkGrid />

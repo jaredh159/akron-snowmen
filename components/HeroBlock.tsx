@@ -12,11 +12,11 @@ const HeroBlock: React.FC = () => {
         <h1>Akron Snowmen</h1>
 
         <BodyText>
-          A full service ice and snow removal company locally owned and operated in
-          Wadsworth, Ohio. We offer professional snow removal services to commercial,
-          corporate, and industrial properties throughout Northeast Ohio. During all snow
-          storms we are staffed 24 hours, providing complete peace-of-mind during every
-          snow event.
+          A full-service ice and snow removal company with over 20 years of experience,
+          locally owned and operated in Wadsworth, Ohio. We offer professional snow
+          removal services to commercial, corporate, and industrial properties throughout
+          Northeast Ohio. During the winter season we are staffed 24 hours, providing
+          complete peace-of-mind during every snow event.
         </BodyText>
 
         <div className={styles.button}>

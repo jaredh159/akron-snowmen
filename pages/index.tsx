@@ -24,10 +24,10 @@ const Home: React.FC = () => {
       <ImageAndTextBlock
         bgColor="rgb(65,64,152)"
         headerText="Our Team"
-        bgImage="./team.jpg"
+        bgImage="./plow-crew.jpg"
         href="/our-team"
       >
-        Our ice management and snow removal team has years of proffessional experience
+        Our ice management and snow removal team has years of professional experience
         serving the Greater Akron area. When you hire Snowmen, we want you to feel assured
         that your property is in good hands during a snow or ice event. Commercial snow
         removal is our full-time business and we take it very seriously.
@@ -38,9 +38,11 @@ const Home: React.FC = () => {
         bgImage="./snow-night.jpg"
         id="about-us"
       >
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi ut aliquam,
-        corporis facilis possimus non. Esse eius iste nulla optio deleniti aperiam,
-        deserunt nemo voluptatem tenetur, provident, quisquam fuga odio.
+        Akron Snowmen is best represented by our long-standing relationships with our
+        clients. We recognize the level of trust and quality of workmanship required to
+        maintain a good rapport with those we serve. If you’re looking for confirmation
+        that Akron Snowmen is a reputable company with outstanding customer service, just
+        ask them.
       </ImageAndTextBlock>
       <PinkBlock />
       <ContactBlock />
