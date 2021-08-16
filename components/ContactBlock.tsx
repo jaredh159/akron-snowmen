@@ -30,8 +30,8 @@ const ContactBlock: React.FC = () => {
           </div>
           <div>
             <h1>Email</h1>
-            <a href="mailto:virtuoso.rod@gmail.com" className={styles.email}>
-              virtuoso.rod@gmail.com
+            <a href="mailto:info@akronsnowmen.com" className={styles.email}>
+              info@akronsnowmen.com
             </a>
           </div>
           <div>
