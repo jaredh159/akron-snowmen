@@ -13,6 +13,7 @@ const SnowmenApp: React.FC<AppProps> = ({ Component, pageProps }) => {
           integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
           crossOrigin="anonymous"
         />
+        <title>Akron Snowmen | Ice and snow removal based in Wadsworth, Ohio.</title>
         <meta
           name="description"
           content="A full service ice and snow removal company locally owned and operated in
