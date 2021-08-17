@@ -9,7 +9,7 @@ const ContactBlock: React.FC = () => {
       <h2 className={styles.mainHeader}>Get In Touch</h2>
 
       <BodyText className={styles.mainText}>
-        Would you like to talk with us about snow and ice removal for <em>your</em>{' '}
+        Would you like to speak with us about snow and ice removal for <em>your</em>{' '}
         property? Submit the form below for a free bid.
       </BodyText>
       <div className={styles.main}>

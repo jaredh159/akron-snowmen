@@ -54,7 +54,7 @@ const Home: React.FC = () => {
           bgImage="./plow-crew.jpg"
           right
           buttonShown={false}
-          imgId={styles.rodImg}
+          id="plow-contain"
         >
           Our experienced plow truck drivers and machine operators work tirelessly for the
           duration of each storm to ensure employees and customers remain safe while on

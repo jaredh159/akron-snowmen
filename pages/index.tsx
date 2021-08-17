@@ -27,6 +27,7 @@ const Home: React.FC = () => {
         headerText="Our Team"
         bgImage="./plow-crew-med.jpg"
         href="/our-team"
+        id="plow-contain"
       >
         Our ice management and snow removal team has years of professional experience
         serving the Greater Akron area. When you hire Snowmen, we want you to feel assured

@@ -18,7 +18,7 @@ const Article: React.FC = () => {
           </BodyText>
           <ArticleImage image="./logo-cloud-2.png" direction="right" />
           <BodyText>
-            Among the list of Akron’s Snowmen’s current and former clients include:
+            Among the list of Akrons Snowmen’s current and former clients include:
           </BodyText>
           <ul className="list-disc mb-6 pl-8 space-y-4">
             <li>

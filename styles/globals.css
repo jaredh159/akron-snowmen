@@ -56,6 +56,11 @@ a {
   object-fit: contain;
 }
 
+#plow-contain img {
+  background: rgb(15, 10, 25);
+  object-fit: contain;
+}
+
 .ArticlePage p {
   margin-bottom: 1.5em;
   font-size: 1.1em;
