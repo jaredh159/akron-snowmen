@@ -19,16 +19,6 @@ const ContactBlock: React.FC = () => {
         <div className={styles.line}></div>
         <div className={styles.info}>
           <div>
-            <h1>Address</h1>
-            <p>
-              2430 S. Medina Line
-              <br />
-              Wadsworth Oh, 44281
-              <br />
-              USA
-            </p>
-          </div>
-          <div>
             <h1>Email</h1>
             <a href="mailto:info@akronsnowmen.com" className={styles.email}>
               info@akronsnowmen.com
