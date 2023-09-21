@@ -12,6 +12,7 @@ const Home: React.FC = () => {
       <HeroBlock />
       {/* <Virtuoso className="lg:hidden" /> */}
       <ImageAndTextBlock
+        id="our-services-card"
         bgColor="rgb(68,67,160)"
         headerText="Our Services"
         bgImage="./plow2.jpg"

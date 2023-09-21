@@ -1,9 +1,10 @@
 import React from 'react';
+import cx from 'classnames';
 import ArticleHeadline from './ArticleHeadline';
 import styles from './styles/ArticlePage.module.css';
-import cx from 'classnames';
 
 type Props = {
+  children: React.ReactNode;
   image: string;
   color: string;
   headline: string;

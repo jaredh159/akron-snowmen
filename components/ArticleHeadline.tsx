@@ -3,6 +3,7 @@ import cx from 'classnames';
 import styles from './styles/ArticleHeadline.module.css';
 
 type Props = {
+  children: React.ReactNode;
   image: string;
   color: string;
 };

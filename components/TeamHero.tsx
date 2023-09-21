@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './styles/HeroBlock.module.css';
+import styles from './styles/OurTeamHero.module.css';
 import BodyText from './BodyText';
 
 const TeamHero: React.FC = () => {

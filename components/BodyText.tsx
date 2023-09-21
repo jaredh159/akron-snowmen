@@ -1,8 +1,9 @@
 import React from 'react';
-import styles from './styles/BodyText.module.css';
 import cx from 'classnames';
+import styles from './styles/BodyText.module.css';
 
 type Props = {
+  children: React.ReactNode;
   className?: string;
 };
 
