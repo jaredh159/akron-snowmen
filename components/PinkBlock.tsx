@@ -26,7 +26,7 @@ const PinkBlock: React.FC = () => {
         <BodyText className={styles.brineText}>
           Why make the switch to liquid brine?
         </BodyText>
-        <Button href="#contact-us" width="200px">
+        <Button href="/brine" width="200px">
           Find Out More
         </Button>
       </div>
