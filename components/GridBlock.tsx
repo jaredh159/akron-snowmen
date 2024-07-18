@@ -1,6 +1,6 @@
-import React from 'react';
-import styles from './styles/GridBlock.module.css';
-import cx from 'classnames';
+import React from "react";
+import styles from "./styles/GridBlock.module.css";
+import cx from "classnames";
 
 type Props = {
   title: string;

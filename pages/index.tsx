@@ -34,8 +34,8 @@ const Home: React.FC = () => {
         Our ice management and snow removal team has years of professional
         experience serving the Greater Akron area. When you hire Snowmen, we
         want you to feel assured that your property is in good hands during a
-        snow or ice event. Commercial snow removal is our full-time business and
-        we take it very seriously.
+        snow or ice event. Snow removal is our full-time business and we take it
+        very seriously.
       </ImageAndTextBlock>
       <ImageAndTextBlock
         bgColor="rgb(72,71,169)"

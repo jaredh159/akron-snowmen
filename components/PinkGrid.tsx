@@ -1,6 +1,6 @@
-import React from 'react';
-import styles from './styles/PinkGrid.module.css';
-import GridBlock from './GridBlock';
+import React from "react";
+import styles from "./styles/PinkGrid.module.css";
+import GridBlock from "./GridBlock";
 
 const PinkGrid: React.FC = () => {
   return (
@@ -12,10 +12,10 @@ const PinkGrid: React.FC = () => {
         icon="fas fa-snowplow"
       />
       <GridBlock
-        title="Ice Removal"
-        paragraph="We salt parking lots, driveways, roads and more, to keep you safe from slipping on the slick ice. "
+        title="Liquid Brine Treatments"
+        paragraph="We also hand salt walkways to ensure no one slips on their way out."
         className={styles.block}
-        icon="fas fa-icicles"
+        icon="fas fa-tint"
       />
       <GridBlock
         title="Walkway Clearing"
@@ -24,10 +24,10 @@ const PinkGrid: React.FC = () => {
         icon="fas fa-socks"
       />
       <GridBlock
-        title="Walkway Salting"
-        paragraph="We also hand salt walkways to ensure no one slips on their way out."
+        title="Ice Removal"
+        paragraph="We salt parking lots, driveways, roads and more, to keep you safe from slipping on the slick ice. "
         className={styles.block}
-        icon="fas fa-temperature-low"
+        icon="fas fa-icicles"
       />
       <GridBlock
         title="Available 24/7"
