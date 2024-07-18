@@ -1,13 +1,17 @@
 import React from "react";
 import Layout from "../components/Layout";
-import TeamHero from "../components/TeamHero";
 import ImageAndTextBlock from "../components/ImageAndTextBlock";
 import styles from "./../components/styles/our-team.module.css";
+import SmallHero from "../components/SmallHero";
 
 const Home: React.FC = () => {
   return (
     <Layout>
-      <TeamHero />
+      <SmallHero
+        imgPath="./plow-crew.jpg"
+        title="Our Team"
+        text="Akron Snowmen wouldn't be where it is today if it weren't for our dedicated and hard-working crew. Our team is out before, during, and after the storm to ensure your property remains clear and safe."
+      />
       <div className="staff">
         <h2 className={styles.subhead}>Management Team</h2>
         <ImageAndTextBlock
