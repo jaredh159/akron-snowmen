@@ -1,8 +1,8 @@
-import React from 'react';
-import cx from 'classnames';
-import styles from './styles/ImageAndTextBlock.module.css';
-import Button from './Button';
-import BodyText from './BodyText';
+import React from "react";
+import cx from "classnames";
+import styles from "./styles/ImageAndTextBlock.module.css";
+import Button from "./Button";
+import BodyText from "./BodyText";
 
 type Props = {
   children: React.ReactNode;
