@@ -1,6 +1,11 @@
 .section {
   background-color: var(--purple);
   color: white;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+.gridContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
