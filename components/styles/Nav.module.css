@@ -18,7 +18,7 @@
 .link {
   margin: 0 12px;
   letter-spacing: 1px;
-  font-family: 'Arial';
+  font-family: "Arial";
   font-size: 9px;
   color: rgba(255, 255, 255, 0.5);
   font-weight: bold;
@@ -30,7 +30,7 @@
 }
 
 .active::after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   background: var(--pink);
@@ -53,7 +53,7 @@
   }
 
   .link::after {
-    content: '';
+    content: "";
     display: block;
     background-color: rgba(255, 255, 255, 0.05);
     position: absolute;

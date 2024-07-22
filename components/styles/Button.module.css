@@ -1,25 +1,25 @@
-.btn {
-  font-family: Arial;
-  font-size: 11px;
-  background-color: rgba(255, 255, 255, 0);
-  color: white;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 30px;
-  padding: 18px 0;
-  text-align: center;
-  letter-spacing: 2px;
-  cursor: pointer;
-  transition-duration: 200ms;
-  text-transform: uppercase;
-  display: inline-block;
-  max-width: 450px;
-}
+/* .btn { */
+/* font-family: Arial; */
+/* font-size: 11px; */
+/* background-color: rgba(255, 255, 255, 0); */
+/* color: white; */
+/* border: 1px solid rgba(255, 255, 255, 0.3); */
+/* border-radius: 30px; */
+/* padding: 18px 0; */
+/* text-align: center; */
+/* letter-spacing: 2px; */
+/* cursor: pointer; */
+/* transition-duration: 200ms; */
+/* text-transform: uppercase; */
+/* display: inline-block; */
+/* max-width: 450px; */
+/* } */
 
-.btn:hover {
-  background-color: rgba(225, 225, 225, 0.07);
-  border: 1px solid rgba(225, 225, 225, 0.7);
-}
+/* .btn:hover { */
+/* background-color: rgba(225, 225, 225, 0.07); */
+/* border: 1px solid rgba(225, 225, 225, 0.7); */
+/* } */
 
-.btn:focus {
-  outline: none;
-}
+/* .btn:focus { */
+/* outline: none; */
+/* } */
