@@ -1,15 +1,15 @@
-import React from 'react';
-import { Meta } from '@storybook/react';
-import TeamHero from '../components/TeamHero';
+import React from "react";
+// import { Meta } from '@storybook/react';
+// import TeamHero from '../components/TeamHero';
 
-const storiesMeta: Meta = {
-  title: `TeamHero`,
-  component: TeamHero,
-  parameters: {
-    layout: 'fullscreen',
-  },
-};
+// const storiesMeta: Meta = {
+//   title: `TeamHero`,
+//   component: TeamHero,
+//   parameters: {
+//     layout: 'fullscreen',
+//   },
+// };
 
-export default storiesMeta;
+// export default storiesMeta;
 
-export const THB = () => <TeamHero />;
+// export const THB = () => <TeamHero />;

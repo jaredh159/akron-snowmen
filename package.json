@@ -5,7 +5,7 @@
   "scripts": {
     "start": "npm run dev",
     "dev": "TAILWIND_MODE=watch next dev --port 3000",
-    "build": "next build && next export -o /home/$USER/www/akron-snowmen",
+    "build": "next build",
     "build:netlify": "next build && next export",
     "format": "fldev format",
     "format:check": "fldev format --check",
