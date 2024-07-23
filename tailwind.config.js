@@ -19,7 +19,7 @@ module.exports = {
         },
         pink: {
           light: "hsl(320, 42%, 54%)",
-          DEFAULT: "hsl(322, 42%, 51%"
+          DEFAULT: "hsl(322, 42%, 51%)"
         },
         "text-white": "hsla(0, 0%, 100%, 0.6)"
       }

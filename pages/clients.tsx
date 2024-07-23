@@ -1,5 +1,4 @@
 import React from "react";
-import BodyText from "../components/BodyText";
 import ArticleImage from "../components/ArticleImage";
 import styles from "../components/styles/Clients.module.css";
 import Layout from "../components/Layout";
@@ -24,7 +23,9 @@ const Article: React.FC = () => {
           Among the list of Akrons Snowmen's current and former clients include:
         </h2>
 
-        <BodyText>
+        {/* this is the same as BodyText, but apparently Next won't let you nest ul's in p's.
+        So I'm just using a div */}
+        <div className="text-text-white max-w-[900px] leading-150">
           <ul className="list-discx pl-8 space-y-4 mb-10">
             <li className="font-bold text-lg">Stark State College</li>
             <li className="font-bold text-lg">Coventry Schools</li>
@@ -54,7 +55,7 @@ const Article: React.FC = () => {
             <li className="font-bold text-lg">Best Buy</li>
             <li className="font-bold text-lg">Barnes and Noble Bookstores</li>
           </ul>
-        </BodyText>
+        </div>
       </div>
       {/* </ArticlePage> */}
     </Layout>
