@@ -1,7 +1,6 @@
 module.exports = {
-  mode: `jit`,
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
-  darkMode: false, // or 'media' or 'class'
+  // mode: `jit`,
+  content: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       fontFamily: {
@@ -24,12 +23,6 @@ module.exports = {
         },
         "text-white": "hsla(0, 0%, 100%, 0.6)"
       }
-    },
-  },
-  variants: {
-    extend: {
-      // this breaks all variants, so we'll just have to wait for the link opacity until v3
-      // textOpacity: ['hover']
     },
   },
   plugins: [],

@@ -17,7 +17,7 @@ const HeroBlock: React.FC = () => {
         <h1 className="text-white">Akron Snowmen</h1>
 
         {/* not convinced that the last class does anything */}
-        <BodyText className="text-opacity-50 pb-[1.8rem] lg:m-0">
+        <BodyText className="text-text-white/50 pb-[1.8rem] lg:m-0">
           A full-service ice and snow removal company with over 20 years of
           experience, locally owned and operated in Wadsworth, Ohio. We offer
           professional snow removal services to commercial, corporate,

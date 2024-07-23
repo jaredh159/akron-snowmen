@@ -30,21 +30,21 @@ const Nav: React.FC = () => {
   }, []);
 
   return (
-    <ul className={styles.outerNav}>
-      {/* <ul className="bg-purple-dark flex justify-around items-center text-center lg:flex-col lg:justify-center"> */}
+    // <ul className={styles.outerNav}>
+    <ul className="bg-purple-dark flex justify-around items-center text-center lg:flex-col lg:justify-center">
       <li
         // very confusing. doesn't look right
         // className={cx(styles.link, active === "welcome" ? styles.active : "")}
         className={cx(
-          "mx-[12px] tracking-[1px] text-[9px] text-white text-opacity-50 uppercase font-bold relative h-[50px] flex items-center hover:text-opacity-100",
+          "mx-[12px] tracking-[1px] text-[9px] text-white/50 uppercase font-bold relative h-[50px] flex items-center hover:text-white",
           // media query
           "lg:pt-[15px] lg:pb-[15px] lg:pr-[15px] lg:m-0 lg:text-right lg:w-[80%] lg:h-[60px] lg:text-[12px]",
           // styles for the after
-          'lg:after:content-[""] lg:after:block lg:after:bg-white lg:after:bg-opacity-[0.05] lg:after:absolute lg:after:h-[3px] lg:after:w-full lg:after:bottom-0',
-          active === "welcome" ? styles.active : ""
-          // active === "welcome"
-          // ? 'after:content-[""] after:block after:absolute after:bg-pink after:h-[3px] after:w-full after:bottom-0'
-          // : ""
+          'lg:after:content-[""] lg:after:block lg:after:bg-white/[0.05] lg:after:absolute lg:after:h-[3px] lg:after:w-full lg:after:bottom-0',
+          // active === "welcome" ? styles.active : ""
+          active === "welcome"
+            ? 'after:content-[""] after:block after:absolute after:bg-pink after:h-[3px] after:w-full after:bottom-0 lg:after:bg-gradient-to-l lg:after:from-pink lg:after:to-purple-medium'
+            : ""
         )}
         onClick={() => setActive("welcome")}
       >
