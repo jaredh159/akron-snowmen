@@ -26,7 +26,7 @@ const Article: React.FC = () => {
         {/* this is the same as BodyText, but apparently Next won't let you nest ul's in p's.
         So I'm just using a div */}
         <div className="text-text-white max-w-[900px] leading-150">
-          <ul className="list-discx pl-8 space-y-4 mb-10">
+          <ul className="pl-8 space-y-4 mb-10">
             <li className="font-bold text-lg">Stark State College</li>
             <li className="font-bold text-lg">Coventry Schools</li>
             <li className="font-bold text-lg">Lowe's Home Improvement</li>
