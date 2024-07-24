@@ -74,7 +74,7 @@ const Home: React.FC = () => {
         <ImageAndTextBlock
           bgColor="rgb(72,71,169)"
           headerText=""
-          bgImage="./crew2.jpg"
+          bgImage="./crew3.jpg"
           buttonShown={false}
           imgId={styles.rodImg}
           // I don't think I can move the image very much
