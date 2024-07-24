@@ -13,8 +13,8 @@ const BrineAnswers: React.FC = () => {
       <BodyText>
         Plain and simple, brine is a mixture of salt and water. But we're not
         talking water softeners or more tasty chicken, we're talking about a
-        more clean AND effective way to keep snow and ice off surfaces longer,
-        and a faster way to clear it once its sticks.
+        more clean AND a more effective way to keep snow and ice off surfaces
+        longer, and a faster way to clear it once its sticks.
       </BodyText>
 
       <div className={styles.gridContainer}>
@@ -53,6 +53,13 @@ const BrineAnswers: React.FC = () => {
             icon="fas fa-dollar-sign"
             className={styles.block}
             paragraph="Liquids are up to 80% less corrosive than rock salt alone. A single ton of salt applied on a property can cause between $800-$3,000 in long-term infrastructure damage."
+          />
+
+          <BrineGridBlock
+            title="Save money on snow removal costs"
+            icon="fas fa-dollar-sign"
+            className={styles.block}
+            paragraph="Liquids make plowing quicker and require much less salt than spreading pure rock salt, saving on material and labors. All less cost for our customers!"
           />
         </div>
       </div>

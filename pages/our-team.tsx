@@ -67,7 +67,7 @@ const Home: React.FC = () => {
           customers remain safe while on your property. We take our job
           seriously, and have taken time to study and train on best snow removal
           practices and techniques. We also record and log our services in
-          real-time on each property, so there’s never a question about the work
+          real-time on each property, so there's never a question about the work
           we perform.
         </ImageAndTextBlock>
         <h2 className={styles.subhead}>Walkway Crew</h2>
