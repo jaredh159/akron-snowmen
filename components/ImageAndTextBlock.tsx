@@ -45,19 +45,16 @@ const ImageAndTextBlock: React.FC<Props> = ({
 
       <div
         className={cx(
-          "text-white flex flex-col px-8 py-16 md:py-12 md:px-16 md:w-[60%]",
-          right ? "text-right" : ""
+          "text-white flex flex-col px-8 py-16 md:py-12 md:px-16 md:w-[60%]"
         )}
         style={{ backgroundColor: bgColor }}
       >
         {headerText && <h1 className="text-3xl mt-0">{headerText}</h1>}
         <BodyText>{children}</BodyText>
         {buttonShown ? (
-          <div className={right ? "md:flex md:justify-end" : ""}>
-            <Button href={href} className="w-full md:w-[200px] mt-12">
-              Learn More
-            </Button>
-          </div>
+          <Button href={href} className="w-full md:w-[200px] mt-12">
+            Learn More
+          </Button>
         ) : (
           ``
         )}

@@ -21,8 +21,8 @@ const HeroBlock: React.FC = () => {
           A full-service ice and snow removal company with over 20 years of
           experience, locally owned and operated in Wadsworth, Ohio. We offer
           professional snow removal services to commercial, corporate,
-          industrial, and residential properties throughout Northeast Ohio.
-          During the winter season we are staffed 24 hours, providing complete
+          industrial, and residential clients throughout Northeast Ohio. During
+          the winter season we are staffed 24 hours, providing complete
           peace-of-mind during every snow event.
         </BodyText>
 

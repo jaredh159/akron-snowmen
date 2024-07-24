@@ -17,7 +17,7 @@ const PinkBlock: React.FC = () => {
       <BodyText className="pb-5 text-white/50 max-w-[755px]">
         Akron Snowmen services industrial, commercial, corporate, and
         residential properties in the Greater Akron area. We have the equipment,
-        the skills, and the dedication to plow, shovel, and salt your property
+        the skills, and the dedication to plow, shovel, and deice your property
         quickly, 24 hours a day and 7 days a week. Our goal is to keep your
         property and your customers safe. We work directly with salt suppliers
         and mines and can guarantee supply.
