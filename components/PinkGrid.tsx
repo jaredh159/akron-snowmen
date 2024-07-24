@@ -1,5 +1,4 @@
 import React from "react";
-import styles from "./styles/PinkGrid.module.css";
 import GridBlock from "./GridBlock";
 
 const PinkGrid: React.FC = () => {

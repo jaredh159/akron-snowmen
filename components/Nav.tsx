@@ -31,7 +31,6 @@ const Nav: React.FC = () => {
   }, []);
 
   return (
-    // <ul className={styles.outerNav}>
     <ul className="bg-purple-dark flex justify-around items-center text-center lg:flex-col lg:justify-center">
       <NavItem
         href="/#welcome"
