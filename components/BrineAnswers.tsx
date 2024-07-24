@@ -56,10 +56,10 @@ const BrineAnswers: React.FC = () => {
           />
 
           <BrineGridBlock
-            title="Save money on snow removal costs"
-            icon="fas fa-dollar-sign"
+            title="Get plowed more effectively"
+            icon="fas fa-snowplow"
             className={styles.block}
-            paragraph="Liquids make plowing quicker and require much less salt than spreading pure rock salt, saving on material and labors. All less cost for our customers!"
+            paragraph="Liquid brine prevents ice and snow from bonding to pavement, so plowing is more effective and there is less snow left on the ground after plowing. Makes your property safer and saves time!"
           />
         </div>
       </div>
