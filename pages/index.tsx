@@ -21,7 +21,7 @@ const Home: React.FC = () => {
         From salting your walkways by hand to plowing your commercial parking
         lot, Akron Snowmen does it all. Our snow removal prices are extremely
         affordable and we have multiple billing arrangements and terms to meet
-        your company's needs. Contact us today for a free quote.
+        your needs. Contact us today for a free quote.
       </ImageAndTextBlock>
       <ImageAndTextBlock
         bgColor="rgb(65,64,152)"
