@@ -14,6 +14,7 @@ type Props = {
   id?: string;
   imgId?: string;
   href?: string;
+  imgClassname?: string;
 };
 
 const ImageAndTextBlock: React.FC<Props> = ({
@@ -26,6 +27,7 @@ const ImageAndTextBlock: React.FC<Props> = ({
   children,
   imgId,
   href,
+  imgClassname = "",
 }) => {
   return (
     <div className={cx("flex flex-col md:flex-row")} id={id}>
@@ -39,7 +41,7 @@ const ImageAndTextBlock: React.FC<Props> = ({
           src={bgImage}
           alt="@TODO"
           id={imgId}
-          className="absolute object-cover w-full h-full"
+          className={cx("absolute object-cover w-full h-full", imgClassname)}
         />
       </div>
 

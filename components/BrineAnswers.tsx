@@ -9,22 +9,22 @@ const BrineAnswers: React.FC = () => {
   return (
     <section className={styles.section}>
       {/* this could also be an image and text block if you'll give me a picture */}
-      <h2 className={styles.header}>Liquid Brine Treatments</h2>
+      <h2 className={styles.header}>What is Brine?</h2>
       <BodyText>
-        Liquid brine is basically salt water, but I don't know much else about
-        it. I do know that it's sprayed with a fancy Bluetooth controller and
-        than Shep gets to ride in the truck when Kristi's doing it. It has many
-        benefits, some of which are outlined below.
+        Plain and simple, brine is a mixture of salt and water. But we're not
+        talking water softeners or more tasty chicken, we're talking about a
+        more clean AND effective way to keep snow and ice off surfaces longer,
+        and a faster way to clear it once its sticks.
       </BodyText>
 
       <div className={styles.gridContainer}>
-        <h2 className={styles.header}>The Perks of Liquid Brine</h2>
+        <h2 className={styles.header}>Fast Facts on Liquid</h2>
         <div className={styles.entireGrid}>
           <BrineGridBlock
-            title="Melt Snow Faster"
+            title="Melt snow faster"
             icon="fas fa-fire"
             className={styles.block}
-            paragraph="Liquids typically work 3-4x faster than rock salt alone."
+            paragraph={`Liquids typically work 3-4x faster than rock salt alone. Rock salt can't melt ice until it converts to liquid brine, so we have to wait for the solid to react to moisture before it becomes effective.  Applying liquid brine directly "cuts out the middleman."`}
           />
 
           <BrineGridBlock
@@ -38,7 +38,7 @@ const BrineAnswers: React.FC = () => {
             title="No fear when temperatures drop"
             icon="fas fa-temperature-low"
             className={styles.block}
-            paragraph="Liquids blended with an additive can work at temperatures down to -30 degree, far beyond the reach of rock salt, which generally becomes ineffective between 10-15 degrees."
+            paragraph="Liquids blended with an additive can work at temperatures down to -30 degrees, far beyond the reach of rock salt, which generally becomes ineffective between 10-15 degrees."
           />
 
           <BrineGridBlock
