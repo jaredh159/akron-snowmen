@@ -1,11 +1,16 @@
-import React from 'react';
-import cx from 'classnames';
-import styles from './styles/Form.module.css';
-import btnStyles from './styles/Button.module.css';
+import React from "react";
+import cx from "classnames";
+import styles from "./styles/Form.module.css";
+import btnStyles from "./styles/Button.module.css";
 
 const Form: React.FC = () => {
   return (
-    <form name="contact" className={styles.form} method="POST" data-netlify="true">
+    <form
+      name="contact"
+      className={styles.form}
+      method="POST"
+      data-netlify="true"
+    >
       <input type="hidden" name="form-name" value="contact" />
       <div className={cx(styles.inputs, styles.formDiv)}>
         <div className={cx(styles.formDiv, styles.inputDivs)}>
@@ -16,6 +21,11 @@ const Form: React.FC = () => {
         <div className={cx(styles.inputDivs, styles.email, styles.formDiv)}>
           <label>Email</label>
           <input name="email" type="email" />
+        </div>
+
+        <div className={cx(styles.inputDivs, styles.email, styles.formDiv)}>
+          <label>Phone Number</label>
+          <input name="phone" type="tel" />
         </div>
       </div>
 
