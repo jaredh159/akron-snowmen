@@ -11,14 +11,15 @@ const BrineAnswers: React.FC = () => {
       {/* this could also be an image and text block if you'll give me a picture */}
       <h2 className={styles.header}>What is Brine?</h2>
       <BodyText>
-        Plain and simple, brine is a mixture of salt and water. But we're not
-        talking water softeners or tasty chicken, we're talking about a more
-        effective and environmentally friendly way to keep snow and ice off
-        surfaces longer, and a faster way to clear it once its sticks.
+        Plain and simple, brine is a mixture of salt and water. But here we're
+        not talking about water softeners or a way to make chicken taste better,
+        we're talking about a more effective and environmentally friendly way to
+        keep snow and ice off your surfaces longer, and a faster way to clear it
+        once it begins to stick.
       </BodyText>
 
       <div className={styles.gridContainer}>
-        <h2 className={styles.header}>Fast Facts on Liquid</h2>
+        <h2 className={styles.header}>Fast Facts on Liquids</h2>
         <div className={styles.entireGrid}>
           <BrineGridBlock
             title="Melt snow faster"
@@ -58,7 +59,7 @@ const BrineAnswers: React.FC = () => {
             title="Help prevent refreeze"
             icon="fas fa-snowplow"
             className={styles.block}
-            paragraph="Liquids help prevent refreeze, where melted ice stays on the pavement and freezes again as temperatures drop."
+            paragraph="Pre-treating with liquids helps prevent the bond of snow and ice to pavement, which assists with machine traction and allows for a cleaner scrape during plowing, thus helping prevent refreeze as temperatures drop after a storm.  "
           />
         </div>
       </div>

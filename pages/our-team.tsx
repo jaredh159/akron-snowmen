@@ -42,7 +42,7 @@ const Home: React.FC = () => {
         <ImageAndTextBlock
           bgColor="rgb(65,64,152)"
           headerText="Bo Costa"
-          bgImage="./snowy-trees.jpg"
+          bgImage="./bo.jpg"
           buttonShown={false}
           imgId={styles.josueImg}
         >
@@ -81,11 +81,11 @@ const Home: React.FC = () => {
           imgClassname="object-top"
         >
           Regardless of the weather conditions and duration of the storm, we
-          have a committed crew of shovelers and snow blower operators working
-          “in the thick of it” to keep walking surfaces free of ice and snow.
-          Our team is ready at a moment's notice and can handle any depth of
-          walkway accumulation, which they often ensure is long-gone well before
-          your alarm goes off.
+          have a committed crew of shovelers and walkway machine operators
+          working “in the thick of it” to keep walking surfaces free of ice and
+          snow. Our team is ready at a moment's notice and can handle any depth
+          of walkway accumulation, which they often ensure is long-gone well
+          before your alarm goes off.
         </ImageAndTextBlock>
       </div>
     </Layout>
