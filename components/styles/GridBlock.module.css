@@ -1,13 +1,13 @@
-.entireBlock {
+/* .entireBlock {
   font-family: Arial;
   display: flex;
-  background-color: rgba(255, 255, 255, 0.1);
-  /* padding: 0px 15px; */
-  padding: 1.25em 1.75em 2em 2em;
-  align-items: center;
-}
+  background-color: rgba(255, 255, 255, 0.1); */
+/* padding: 0px 15px; */
+/* padding: 1.25em 1.75em 2em 2em; */
+/* align-items: center; */
+/* } */
 
-.rightChunk {
+/* .rightChunk {
   padding-left: 1.5em;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .icon {
-  color: var(--orange);
+  color: #1e40af;
   width: 40px;
   height: 40px;
   background-color: white;
@@ -34,4 +34,4 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */

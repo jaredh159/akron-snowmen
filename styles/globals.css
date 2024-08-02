@@ -2,15 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .leading-150 {
+    line-height: 150%;
+  }
+}
+
 :root {
-  --light-purple: rgb(94, 66, 166);
-  --med-purple: rgb(73, 51, 130);
-  --footer-purple: rgb(65, 47, 114);
-  --purple: rgb(60, 44, 98);
-  --dark-purple: rgb(49, 36, 80);
-  --pink: rgb(183, 78, 145);
-  --light-pink: rgb(187, 90, 155);
-  --orange: rgb(173, 106, 61);
+  --light-purple: hsl(257, 43%, 45%);
+  --med-purple: hsl(257, 44%, 35%);
+  --footer-purple: hsl(256, 42%, 32%);
+  --purple: hsl(259, 38%, 28%);
+  --dark-purple: hsl(258, 38%, 23%);
+  --pink: hsl(322, 42%, 51%);
+  --light-pink: hsl(320, 42%, 54%);
+  /* --orange: rgb(173, 106, 61); */
 }
 
 html,

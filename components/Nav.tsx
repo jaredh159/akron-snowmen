@@ -1,26 +1,29 @@
-import React, { useState, useEffect } from 'react';
-import styles from './styles/Nav.module.css';
-import cx from 'classnames';
+import React, { useState, useEffect } from "react";
+import styles from "./styles/Nav.module.css";
+import cx from "classnames";
+import NavItem from "./NavItem";
 
 const Nav: React.FC = () => {
   const [active, setActive] = useState<
-    'welcome' | 'team' | 'services' | 'contact' | 'clients'
-  >('welcome');
+    "welcome" | "team" | "services" | "contact" | "clients" | "brine"
+  >("welcome");
 
   useEffect(() => {
     if (window.location.href.includes(`our-team`)) {
       setActive(`team`);
     } else if (window.location.href.includes(`clients`)) {
       setActive(`clients`);
+    } else if (window.location.href.includes(`brine`)) {
+      setActive("brine");
     } else {
       switch (window.location.hash) {
-        case '#our-services':
+        case "#our-services":
           setActive(`services`);
           break;
-        case '#welcome':
+        case "#welcome":
           setActive(`welcome`);
           break;
-        case '#contact-us':
+        case "#contact-us":
           setActive(`contact`);
           break;
       }
@@ -28,55 +31,48 @@ const Nav: React.FC = () => {
   }, []);
 
   return (
-    <ul className={styles.outerNav}>
-      <li
-        className={cx(styles.link, active === 'welcome' ? styles.active : '')}
-        onClick={() => setActive('welcome')}
-      >
-        <a href="/#welcome" className={styles.aTag}>
-          Welcome
-        </a>
-      </li>
+    <ul className="bg-purple-dark flex justify-around items-center text-center lg:flex-col lg:justify-center">
+      <NavItem
+        href="/#welcome"
+        onClick={() => setActive("welcome")}
+        text="Welcome"
+        active={active === "welcome"}
+      />
 
-      <li
-        className={cx(styles.link, active === 'team' ? styles.active : '')}
-        onClick={() => setActive('team')}
-      >
-        <a href="/our-team" className={styles.aTag}>
-          Our Team
-        </a>
-      </li>
+      <NavItem
+        href="/our-team"
+        onClick={() => setActive("team")}
+        text="Our Team"
+        active={active === "team"}
+      />
 
-      <li
-        className={cx(
-          `OurServices`,
-          styles.link,
-          active === 'services' ? styles.active : '',
-        )}
-        onClick={() => setActive('services')}
-      >
-        <a href="/#our-services" className={styles.aTag}>
-          Our Services
-        </a>
-      </li>
+      <NavItem
+        href="/#our-services"
+        onClick={() => setActive("services")}
+        text="Our Services"
+        active={active === "services"}
+      />
 
-      <li
-        className={cx(styles.link, active === 'clients' ? styles.active : '')}
-        onClick={() => setActive('clients')}
-      >
-        <a href="/clients" className={styles.aTag}>
-          Our Clients
-        </a>
-      </li>
+      <NavItem
+        href="/brine"
+        onClick={() => setActive("brine")}
+        text="Liquid Brine Treatments"
+        active={active === "brine"}
+      />
 
-      <li
-        className={cx(styles.link, active === 'contact' ? styles.active : '')}
-        onClick={() => setActive('contact')}
-      >
-        <a href="/#contact-us" className={styles.aTag}>
-          Contact Us
-        </a>
-      </li>
+      <NavItem
+        href="/clients"
+        onClick={() => setActive("clients")}
+        text="Our Clients"
+        active={active === "clients"}
+      />
+
+      <NavItem
+        href="/#contact-us"
+        onClick={() => setActive("contact")}
+        text="Contact Us"
+        active={active === "contact"}
+      />
     </ul>
   );
 };

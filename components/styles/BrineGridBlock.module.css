@@ -1,0 +1,37 @@
+.entireBlock {
+  font-family: Arial;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.1);
+  /* padding: 0px 15px; */
+  padding: 1.25em 1.75em 2em 2em;
+  align-items: center;
+}
+
+.rightChunk {
+  padding-left: 1.5em;
+}
+
+.rightChunk h2 {
+  margin: 0;
+  padding-top: 12px;
+  font-size: 1.4em;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.leftChunk {
+  padding-left: 0.25em;
+}
+
+.icon {
+  color: var(--purple);
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  font-size: 18px;
+  border-radius: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

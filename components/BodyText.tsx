@@ -1,6 +1,5 @@
-import React from 'react';
-import cx from 'classnames';
-import styles from './styles/BodyText.module.css';
+import React from "react";
+import cx from "classnames";
 
 type Props = {
   children: React.ReactNode;
@@ -8,7 +7,11 @@ type Props = {
 };
 
 const BodyText: React.FC<Props> = ({ className, children }) => {
-  return <p className={cx(styles.main, className)}>{children}</p>;
+  return (
+    <p className={cx("text-text-white max-w-[900px] leading-150", className)}>
+      {children}
+    </p>
+  );
 };
 
 export default BodyText;
