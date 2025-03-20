@@ -40,7 +40,8 @@ const Home: React.FC = () => {
       <ImageAndTextBlock
         bgColor="rgb(72,71,169)"
         headerText="Our Clients"
-        bgImage="./logo-cloud-2.png"
+        // bgImage="./logo-cloud-2.png"
+        bgImage="./collage-2024.png"
         id="our-clients"
         href="/clients"
       >
