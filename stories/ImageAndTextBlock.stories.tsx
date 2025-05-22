@@ -1,12 +1,12 @@
-import React from 'react';
-import { Meta } from '@storybook/react';
-import ImageAndTextBlock from '../components/ImageAndTextBlock';
+import React from "react";
+import { Meta } from "@storybook/react";
+import ImageAndTextBlock from "../components/ImageAndTextBlock";
 
 const storiesMeta: Meta = {
   title: `ImageAndTextBlock`,
   component: ImageAndTextBlock,
   parameters: {
-    layout: 'fullscreen',
+    layout: "fullscreen",
   },
 };
 
@@ -17,29 +17,35 @@ export const BasicStory = () => (
     <ImageAndTextBlock
       bgColor="rgb(72,71,169)"
       headerText="Sed Ipsum Dolor"
-      bgImage="/clouds.jpg"
+      bgImageJPG="/clouds.jpg"
+      bgImageWebP=""
     >
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, explicabo sed
-      temporibus libero similique sint quaerat quas autem culpa dolorem voluptatum quis
-      inventore molestiae eaque id minima consectetur dignissimos! Harum?
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, explicabo
+      sed temporibus libero similique sint quaerat quas autem culpa dolorem
+      voluptatum quis inventore molestiae eaque id minima consectetur
+      dignissimos! Harum?
     </ImageAndTextBlock>
     <ImageAndTextBlock
       bgColor="rgb(68,67,160)"
       headerText="Feugiat consequat"
-      bgImage="/sunset.jpg"
+      bgImageJPG="/sunset.jpg"
+      bgImageWebP=""
     >
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, explicabo sed
-      temporibus libero similique sint quaerat quas autem culpa dolorem voluptatum quis
-      inventore molestiae eaque id minima consectetur dignissimos! Harum?
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, explicabo
+      sed temporibus libero similique sint quaerat quas autem culpa dolorem
+      voluptatum quis inventore molestiae eaque id minima consectetur
+      dignissimos! Harum?
     </ImageAndTextBlock>
     <ImageAndTextBlock
       bgColor="rgb(65,64,152)"
       headerText="Ultricies aliqua"
-      bgImage="/traffic.jpg"
+      bgImageJPG="/traffic.jpg"
+      bgImageWebP=""
     >
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, explicabo sed
-      temporibus libero similique sint quaerat quas autem culpa dolorem voluptatum quis
-      inventore molestiae eaque id minima consectetur dignissimos! Harum?
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, explicabo
+      sed temporibus libero similique sint quaerat quas autem culpa dolorem
+      voluptatum quis inventore molestiae eaque id minima consectetur
+      dignissimos! Harum?
     </ImageAndTextBlock>
   </>
 );
@@ -49,11 +55,13 @@ export const TeamMember = () => {
     <ImageAndTextBlock
       bgColor="rgb(72,71,169)"
       headerText="Josué Rodriguez"
-      bgImage="/josue2.jpg"
+      bgImageJPG="/josue2.jpg"
+      bgImageWebP=""
       buttonShown={false}
     >
-      Josue hates stretching, and has never seen the point in voluntarily exercising. At
-      37 he still gets a kick out of sledding once a storm is over.
+      Josue hates stretching, and has never seen the point in voluntarily
+      exercising. At 37 he still gets a kick out of sledding once a storm is
+      over.
     </ImageAndTextBlock>
   );
 };
@@ -63,11 +71,13 @@ export const JosueLeft = () => {
     <ImageAndTextBlock
       bgColor="rgb(72,71,169)"
       headerText="Josué Rodriguez"
-      bgImage="/josue2.jpg"
+      bgImageJPG="/josue2.jpg"
+      bgImageWebP=""
       buttonShown={false}
     >
-      Josue hates stretching, and has never seen the point in voluntarily exercising. At
-      37 he still gets a kick out of sledding once a storm is over.
+      Josue hates stretching, and has never seen the point in voluntarily
+      exercising. At 37 he still gets a kick out of sledding once a storm is
+      over.
     </ImageAndTextBlock>
   );
 };
@@ -77,12 +87,14 @@ export const JosueRight = () => {
     <ImageAndTextBlock
       bgColor="rgb(72,71,169)"
       headerText="Josué Rodriguez"
-      bgImage="/josue2.jpg"
+      bgImageJPG="/josue2.jpg"
+      bgImageWebP=""
       buttonShown={false}
       right={true}
     >
-      Josue hates stretching, and has never seen the point in voluntarily exercising. At
-      37 he still gets a kick out of sledding once a storm is over.
+      Josue hates stretching, and has never seen the point in voluntarily
+      exercising. At 37 he still gets a kick out of sledding once a storm is
+      over.
     </ImageAndTextBlock>
   );
 };
