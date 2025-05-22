@@ -8,7 +8,9 @@ type Props = {
   children: React.ReactNode;
   bgColor: string;
   headerText: string;
-  bgImage: string;
+  bgImageWebP: string;
+  bgImageJPG: string;
+  lazyLoad?: boolean;
   right?: boolean;
   buttonShown?: boolean;
   id?: string;
@@ -20,8 +22,10 @@ type Props = {
 const ImageAndTextBlock: React.FC<Props> = ({
   bgColor,
   headerText,
-  bgImage,
+  bgImageWebP,
+  bgImageJPG,
   id,
+  lazyLoad = false,
   buttonShown = true,
   right = false,
   children,
@@ -37,12 +41,16 @@ const ImageAndTextBlock: React.FC<Props> = ({
           right ? "md:order-2" : ""
         )}
       >
-        <img
-          src={bgImage}
-          alt="@TODO"
-          id={imgId}
-          className={cx("absolute object-cover w-full h-full", imgClassname)}
-        />
+        <picture>
+          <source type="image/webp" srcSet={bgImageWebP} />
+          <img
+            src={bgImageJPG}
+            alt="@TODO"
+            id={imgId}
+            className={cx("absolute object-cover w-full h-full", imgClassname)}
+            loading={lazyLoad ? "lazy" : "eager"}
+          />
+        </picture>
       </div>
 
       <div

@@ -1,6 +1,5 @@
 import React from "react";
 import ArticleImage from "../components/ArticleImage";
-import styles from "../components/styles/Clients.module.css";
 import Layout from "../components/Layout";
 import SmallHero from "../components/SmallHero";
 
@@ -14,13 +13,14 @@ const Article: React.FC = () => {
           workmanship required to maintain a good rapport with those we serve.
           If you're looking for confirmation that Akron Snowmen is a reputable
           company with outstanding customer service, just ask them."
-        imgPath="./lights.jpg"
+        imgPathJPG="./lights.jpg"
+        imgPathWebP="./lights.webp"
       />
 
       <div className="max-w-4xlx pl-16 pt-8 bg-[#3d2c63]">
         <ArticleImage
-          image="./collage-2024.png"
-          // image="./collage-2024-transparent.png"
+          imageWebP="./collage-2024.webp"
+          imageJPG="./collage-2024.png"
           direction="right"
           className="w-[40rem] pr-24"
         />

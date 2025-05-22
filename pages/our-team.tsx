@@ -8,7 +8,8 @@ const Home: React.FC = () => {
   return (
     <Layout>
       <SmallHero
-        imgPath="./plow-crew.jpg"
+        imgPathJPG="./plow-crew.jpg"
+        imgPathWebP="./plow-crew.webp"
         title="Our Team"
         text="Akron Snowmen wouldn't be where it is today if it weren't for our dedicated and hard-working crew. Our team is out before, during, and after the storm to ensure your property remains clear and safe."
       />
@@ -17,7 +18,8 @@ const Home: React.FC = () => {
         <ImageAndTextBlock
           bgColor="rgb(72,71,169)"
           headerText="Rod Costa"
-          bgImage="./rod.jpg"
+          bgImageWebP="./rod.webp"
+          bgImageJPG="./rod.jpg"
           buttonShown={false}
           imgId={styles.rodImg}
         >
@@ -30,7 +32,9 @@ const Home: React.FC = () => {
         <ImageAndTextBlock
           bgColor="rgb(68,67,160)"
           headerText="Kristi Ensminger"
-          bgImage="./kristi.jpg"
+          bgImageWebP="./kristi.webp"
+          bgImageJPG="./kristi.jpg"
+          lazyLoad={true}
           buttonShown={false}
           right={true}
           imgId={styles.kristiImg}
@@ -42,7 +46,9 @@ const Home: React.FC = () => {
         <ImageAndTextBlock
           bgColor="rgb(65,64,152)"
           headerText="Bo Costa"
-          bgImage="./bo.jpg"
+          bgImageWebP="./bo.webp"
+          bgImageJPG="./bo.jpg"
+          lazyLoad={true}
           buttonShown={false}
           imgId={styles.josueImg}
         >
@@ -57,7 +63,9 @@ const Home: React.FC = () => {
         <ImageAndTextBlock
           bgColor="rgb(72,71,169)"
           headerText=""
-          bgImage="./plow-crew.jpg"
+          bgImageWebP="./plow-crew.webp"
+          bgImageJPG="./plow-crew.jpg"
+          lazyLoad={true}
           right
           buttonShown={false}
           id="plow-contain"
@@ -74,7 +82,9 @@ const Home: React.FC = () => {
         <ImageAndTextBlock
           bgColor="rgb(72,71,169)"
           headerText=""
-          bgImage="./crew3.jpg"
+          bgImageWebP="./crew3.webp"
+          bgImageJPG="./crew3.jpg"
+          lazyLoad={true}
           buttonShown={false}
           imgId={styles.rodImg}
           // I don't think I can move the image very much

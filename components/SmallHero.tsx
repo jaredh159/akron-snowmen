@@ -3,15 +3,24 @@ import styles from "./styles/SmallHero.module.css";
 import BodyText from "./BodyText";
 
 type Props = {
-  imgPath: string;
+  imgPathJPG: string;
+  imgPathWebP: string;
   title: string;
   text: string;
 };
 
-const SmallHero: React.FC<Props> = ({ imgPath, title, text }) => {
+const SmallHero: React.FC<Props> = ({
+  imgPathJPG,
+  imgPathWebP,
+  title,
+  text,
+}) => {
   return (
     <div className={styles.entire} id="heroBlock">
-      <img src={imgPath} className={styles.image} alt="team" />
+      <picture>
+        <source type="image/webp" srcSet={imgPathWebP} />
+        <img src={imgPathJPG} className={styles.image} alt="team" />
+      </picture>
 
       <div className={styles.overlay}>
         <h1>{title}</h1>

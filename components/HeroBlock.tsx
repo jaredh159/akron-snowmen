@@ -7,11 +7,14 @@ import BodyText from "./BodyText";
 const HeroBlock: React.FC = () => {
   return (
     <div className="relative" id="welcome">
-      <img
-        src="./loader.jpg"
-        className="object-cover absolute w-full h-full z-[-1]"
-        alt="plow"
-      />
+      <picture>
+        <source type="image/webp" srcSet="./loader.webp" />
+        <img
+          src="./loader.jpg"
+          className="object-cover absolute w-full h-full z-[-1]"
+          alt="plow"
+        />
+      </picture>
 
       <div className="bg-[#5e42a6d9] pt-24 pr-20 pb-28 pl-16 lg:h-screen lg:flex lg:flex-col lg:justify-center">
         <h1 className="text-white">Akron Snowmen</h1>

@@ -15,7 +15,8 @@ const Home: React.FC = () => {
         id="our-services-card"
         bgColor="rgb(68,67,160)"
         headerText="Our Services"
-        bgImage="./trucks.jpg"
+        bgImageWebP="./trucks.webp"
+        bgImageJPG="./trucks.jpg"
         href="#our-services"
       >
         From salting your walkways by hand to plowing your commercial parking
@@ -26,10 +27,12 @@ const Home: React.FC = () => {
       <ImageAndTextBlock
         bgColor="rgb(65,64,152)"
         headerText="Our Team"
-        bgImage="./plow-crew-med.jpg"
+        bgImageWebP="./plow-crew-med.webp"
+        bgImageJPG="./plow-crew-med.jpg"
         href="/our-team"
         id="plow-contain"
         right={true}
+        lazyLoad={true}
       >
         Our ice management and snow removal team has years of professional
         experience serving the Greater Akron area. When you hire Snowmen, we
@@ -40,15 +43,16 @@ const Home: React.FC = () => {
       <ImageAndTextBlock
         bgColor="rgb(72,71,169)"
         headerText="Our Clients"
-        // bgImage="./logo-cloud-2.png"
-        bgImage="./collage-2024.png"
+        bgImageWebP="./collage-2024.webp"
+        bgImageJPG="./collage-2024.png"
         id="our-clients"
         href="/clients"
+        lazyLoad={true}
       >
         Akron Snowmen is best represented by our long-standing relationships
         with our clients. We recognize the level of trust and quality of
         workmanship required to maintain a good rapport with those we serve. If
-        you’re looking for confirmation that Akron Snowmen is a reputable
+        you're looking for confirmation that Akron Snowmen is a reputable
         company with outstanding customer service, just ask them.
       </ImageAndTextBlock>
       <PinkBlock />
