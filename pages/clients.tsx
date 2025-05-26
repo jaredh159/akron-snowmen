@@ -1,6 +1,5 @@
 import React from "react";
 import ArticleImage from "../components/ArticleImage";
-import styles from "../components/styles/Clients.module.css";
 import Layout from "../components/Layout";
 import SmallHero from "../components/SmallHero";
 
@@ -14,11 +13,17 @@ const Article: React.FC = () => {
           workmanship required to maintain a good rapport with those we serve.
           If you're looking for confirmation that Akron Snowmen is a reputable
           company with outstanding customer service, just ask them."
-        imgPath="./lights.jpg"
+        imgPathJPG="./lights.jpg"
+        imgPathWebP="./lights.webp"
       />
 
       <div className="max-w-4xlx pl-16 pt-8 bg-[#3d2c63]">
-        <ArticleImage image="./logo-cloud-2.png" direction="right" />
+        <ArticleImage
+          imageWebP="./collage-2024.webp"
+          imageJPG="./collage-2024.png"
+          direction="right"
+          className="w-[40rem] pr-24"
+        />
         <h2 className="text-white">
           Among the list of Akrons Snowmen's current and former clients include:
         </h2>
@@ -29,15 +34,19 @@ const Article: React.FC = () => {
           <ul className="pl-8 space-y-4 mb-10">
             <li className="font-bold text-lg">Stark State College</li>
             <li className="font-bold text-lg">Coventry Schools</li>
+            <li className="font-bold text-lg">Target</li>
             <li className="font-bold text-lg">Lowe's Home Improvement</li>
             <li className="font-bold text-lg">United States Postal Service</li>
+            <li className="font-bold text-lg">Walmart</li>
             <li className="font-bold text-lg">Akron-Beacon Journal</li>
+            <li className="font-bold text-lg">City of Wadsworth</li>
             <li className="font-bold text-lg">
               American Medical Response (24-hour Ambulance Service)
             </li>
             <li className="font-bold text-lg">
               Progressive Insurance Company (Akron Headquarters)
             </li>
+            <li className="font-bold text-lg">Medina County Parks</li>
             <li className="font-bold text-lg">BJ's Wholesale</li>
             <li className="font-bold text-lg">
               Shantz Cartage (Semi Truck Terminal)
